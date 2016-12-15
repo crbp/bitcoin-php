@@ -142,7 +142,7 @@ class EcAdapter implements EcAdapterInterface
      * @param PrivateKeyInterface $privateKey
      * @param RbgInterface $rbg
      * @return SignatureInterface
-     * @throws \BitWasp\Bitcoin\Exceptions\RandomBytesFailure
+     * @throws \BitWaspNew\Bitcoin\Exceptions\RandomBytesFailure
      */
     public function sign(BufferInterface $messageHash, PrivateKeyInterface $privateKey, RbgInterface $rbg = null)
     {

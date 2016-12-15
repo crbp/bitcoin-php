@@ -219,7 +219,7 @@ class InputSigner
 
             $first = ord($buffer->getBinary());
             if ($size === 1 && $first >= 1 && $first <= 16) {
-                return \BitWasp\Bitcoin\Script\encodeOpN($first);
+                return \BitWaspNew\Bitcoin\Script\encodeOpN($first);
             } else {
                 return $buffer;
             }

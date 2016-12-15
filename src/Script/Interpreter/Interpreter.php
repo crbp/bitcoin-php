@@ -25,7 +25,7 @@ class Interpreter implements InterpreterInterface
 {
 
     /**
-     * @var \BitWasp\Bitcoin\Math\Math
+     * @var \BitWaspNew\Bitcoin\Math\Math
      */
     private $math;
 
@@ -425,7 +425,7 @@ class Interpreter implements InterpreterInterface
                         case Opcodes::OP_14:
                         case Opcodes::OP_15:
                         case Opcodes::OP_16:
-                            $num = \BitWasp\Bitcoin\Script\decodeOpN($opCode);
+                            $num = \BitWaspNew\Bitcoin\Script\decodeOpN($opCode);
                             $mainStack->push(Number::int($num)->getBuffer());
                             break;
 

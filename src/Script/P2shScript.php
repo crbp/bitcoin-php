@@ -32,7 +32,7 @@ class P2shScript extends Script
     }
 
     /**
-     * @return \BitWasp\Bitcoin\Address\ScriptHashAddress
+     * @return \BitWaspNew\Bitcoin\Address\ScriptHashAddress
      */
     public function getAddress()
     {

@@ -11,8 +11,8 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\DerSignatureSeriali
 
 class EcSerializer
 {
-    const PATH_PHPECC = 'BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\\';
-    const PATH_SECP256K1 = 'BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\\';
+    const PATH_PHPECC = 'BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\\';
+    const PATH_SECP256K1 = 'BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\\';
 
     /**
      * @var string[]
@@ -82,8 +82,8 @@ class EcSerializer
     public static function getImplPaths()
     {
         return [
-            'BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter' => 'BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\\',
-            'BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter' => 'BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\\'
+            'BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter' => 'BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\\',
+            'BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter' => 'BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\\'
         ];
     }
 

@@ -89,7 +89,7 @@ class Params implements ParamsInterface
     }
 
     /**
-     * @return \BitWasp\Bitcoin\Block\BlockHeaderInterface
+     * @return \BitWaspNew\Bitcoin\Block\BlockHeaderInterface
      */
     public function getGenesisBlockHeader()
     {
@@ -104,7 +104,7 @@ class Params implements ParamsInterface
     }
 
     /**
-     * @return \BitWasp\Bitcoin\Block\BlockInterface
+     * @return \BitWaspNew\Bitcoin\Block\BlockInterface
      */
     public function getGenesisBlock()
     {

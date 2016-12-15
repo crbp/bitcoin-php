@@ -38,9 +38,9 @@ class Multisig implements ScriptInfoInterface
         $mCode = $parse[0]->getOp();
         $nCode = $parse[count($parse) - 2]->getOp();
 
-        $this->m = \BitWasp\Bitcoin\Script\decodeOpN($mCode);
+        $this->m = \BitWaspNew\Bitcoin\Script\decodeOpN($mCode);
         foreach (array_slice($parse, 1, -2) as $key) {
-            /** @var \BitWasp\Bitcoin\Script\Parser\Operation $key */
+            /** @var \BitWaspNew\Bitcoin\Script\Parser\Operation $key */
             if (!$key->isPush()) {
                 throw new \RuntimeException('Malformed multisig script');
             }
@@ -48,7 +48,7 @@ class Multisig implements ScriptInfoInterface
             $publicKeys[] = PublicKeyFactory::fromHex($key->getData());
         }
 
-        $this->n = \BitWasp\Bitcoin\Script\decodeOpN($nCode);
+        $this->n = \BitWaspNew\Bitcoin\Script\decodeOpN($nCode);
         if ($this->n === 0 || $this->n !== count($publicKeys)) {
             throw new \LogicException('No public keys found in script');
         }
@@ -89,7 +89,7 @@ class Multisig implements ScriptInfoInterface
     }
 
     /**
-     * @return \BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface[]
+     * @return \BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface[]
      */
     public function getKeys()
     {

@@ -36,7 +36,7 @@ class Bip39Mnemonic implements MnemonicInterface
      *
      * @param int $entropySize
      * @return string
-     * @throws \BitWasp\Bitcoin\Exceptions\RandomBytesFailure
+     * @throws \BitWaspNew\Bitcoin\Exceptions\RandomBytesFailure
      */
     public function create($entropySize = 512)
     {

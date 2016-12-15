@@ -13,7 +13,7 @@ class PaymentDetails extends Message
     /**  @var string */
     public $network = 'main';
 
-    /**  @var \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output[] */
+    /**  @var \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output[] */
     public $outputs = array();
 
     /**  @var int */
@@ -54,7 +54,7 @@ class PaymentDetails extends Message
         $f->name = 'outputs';
         $f->type = Protobuf::TYPE_MESSAGE;
         $f->rule = Protobuf::RULE_REPEATED;
-        $f->reference = '\BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output';
+        $f->reference = '\BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output';
         $descriptor->addField($f);
 
         // REQUIRED UINT64 time = 3
@@ -117,7 +117,7 @@ class PaymentDetails extends Message
     /**
      * Clear <network> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function clearNetwork()
     {
@@ -138,7 +138,7 @@ class PaymentDetails extends Message
      * Set <network> value
      *
      * @param string $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function setNetwork($value)
     {
@@ -158,7 +158,7 @@ class PaymentDetails extends Message
     /**
      * Clear <outputs> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function clearOutputs()
     {
@@ -169,7 +169,7 @@ class PaymentDetails extends Message
      * Get <outputs> value
      *
      * @param int $idx
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output
      */
     public function getOutputs($idx = null)
     {
@@ -179,11 +179,11 @@ class PaymentDetails extends Message
     /**
      * Set <outputs> value
      *
-     * @param \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output $value
+     * @param \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output $value
      * @param int $idx
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
-    public function setOutputs(\BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output $value, $idx = null)
+    public function setOutputs(\BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output $value, $idx = null)
     {
         return $this->_set(2, $value, $idx);
     }
@@ -191,7 +191,7 @@ class PaymentDetails extends Message
     /**
      * Get all elements of <outputs>
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output[]
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output[]
      */
     public function getOutputsList()
     {
@@ -201,10 +201,10 @@ class PaymentDetails extends Message
     /**
      * Add a new element to <outputs>
      *
-     * @param \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @param \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output $value
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
-    public function addOutputs(\BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output $value)
+    public function addOutputs(\BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output $value)
     {
         return $this->_add(2, $value);
     }
@@ -222,7 +222,7 @@ class PaymentDetails extends Message
     /**
      * Clear <time> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function clearTime()
     {
@@ -243,7 +243,7 @@ class PaymentDetails extends Message
      * Set <time> value
      *
      * @param int $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function setTime($value)
     {
@@ -263,7 +263,7 @@ class PaymentDetails extends Message
     /**
      * Clear <expires> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function clearExpires()
     {
@@ -284,7 +284,7 @@ class PaymentDetails extends Message
      * Set <expires> value
      *
      * @param int $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function setExpires($value)
     {
@@ -304,7 +304,7 @@ class PaymentDetails extends Message
     /**
      * Clear <memo> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function clearMemo()
     {
@@ -325,7 +325,7 @@ class PaymentDetails extends Message
      * Set <memo> value
      *
      * @param string $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function setMemo($value)
     {
@@ -345,7 +345,7 @@ class PaymentDetails extends Message
     /**
      * Clear <payment_url> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function clearPaymentUrl()
     {
@@ -366,7 +366,7 @@ class PaymentDetails extends Message
      * Set <payment_url> value
      *
      * @param string $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function setPaymentUrl($value)
     {
@@ -386,7 +386,7 @@ class PaymentDetails extends Message
     /**
      * Clear <merchant_data> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function clearMerchantData()
     {
@@ -407,7 +407,7 @@ class PaymentDetails extends Message
      * Set <merchant_data> value
      *
      * @param string $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails
      */
     public function setMerchantData($value)
     {

@@ -48,7 +48,7 @@ class Block extends Serializable implements BlockInterface
 
     /**
      * {@inheritdoc}
-     * @see \BitWasp\Bitcoin\Block\BlockInterface::getHeader()
+     * @see \BitWaspNew\Bitcoin\Block\BlockInterface::getHeader()
      */
     public function getHeader()
     {
@@ -57,8 +57,8 @@ class Block extends Serializable implements BlockInterface
 
     /**
      * {@inheritdoc}
-     * @see \BitWasp\Bitcoin\Block\BlockInterface::getMerkleRoot()
-     * @throws \BitWasp\Bitcoin\Exceptions\MerkleTreeEmpty
+     * @see \BitWaspNew\Bitcoin\Block\BlockInterface::getMerkleRoot()
+     * @throws \BitWaspNew\Bitcoin\Exceptions\MerkleTreeEmpty
      */
     public function getMerkleRoot()
     {
@@ -70,7 +70,7 @@ class Block extends Serializable implements BlockInterface
     }
 
     /**
-     * @see \BitWasp\Bitcoin\Block\BlockInterface::getTransactions()
+     * @see \BitWaspNew\Bitcoin\Block\BlockInterface::getTransactions()
      * @return TransactionInterface[]
      */
     public function getTransactions()
@@ -80,7 +80,7 @@ class Block extends Serializable implements BlockInterface
 
     /**
      * @param int $i
-     * @return \BitWasp\Bitcoin\Transaction\TransactionInterface
+     * @return \BitWaspNew\Bitcoin\Transaction\TransactionInterface
      */
     public function getTransaction($i)
     {

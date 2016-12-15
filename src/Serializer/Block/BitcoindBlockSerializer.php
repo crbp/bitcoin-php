@@ -61,7 +61,7 @@ class BitcoindBlockSerializer
 
     /**
      * @param Parser $parser
-     * @return \BitWasp\Bitcoin\Block\Block
+     * @return \BitWaspNew\Bitcoin\Block\Block
      * @throws \BitWasp\Buffertools\Exceptions\ParserOutOfRange
      */
     public function fromParser(Parser $parser)
@@ -78,7 +78,7 @@ class BitcoindBlockSerializer
 
     /**
      * @param \BitWasp\Buffertools\BufferInterface|string $data
-     * @return \BitWasp\Bitcoin\Block\Block
+     * @return \BitWaspNew\Bitcoin\Block\Block
      */
     public function parse($data)
     {

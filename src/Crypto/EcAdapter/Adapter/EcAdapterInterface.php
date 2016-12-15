@@ -12,7 +12,7 @@ use BitWasp\Buffertools\BufferInterface;
 interface EcAdapterInterface
 {
     /**
-     * @return \BitWasp\Bitcoin\Math\Math
+     * @return \BitWaspNew\Bitcoin\Math\Math
      */
     public function getMath();
 

@@ -31,7 +31,7 @@ abstract class Key extends Serializable implements KeyInterface
     }
 
     /**
-     * @return \BitWasp\Bitcoin\Address\PayToPubKeyHashAddress
+     * @return \BitWaspNew\Bitcoin\Address\PayToPubKeyHashAddress
      */
     public function getAddress()
     {

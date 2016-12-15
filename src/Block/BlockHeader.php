@@ -78,7 +78,7 @@ class BlockHeader extends Serializable implements BlockHeaderInterface
      * Get the version for this block
      *
      * {@inheritdoc}
-     * @see \BitWasp\Bitcoin\Block\BlockHeaderInterface::getVersion()
+     * @see \BitWaspNew\Bitcoin\Block\BlockHeaderInterface::getVersion()
      */
     public function getVersion()
     {
@@ -87,7 +87,7 @@ class BlockHeader extends Serializable implements BlockHeaderInterface
 
     /**
      * {@inheritdoc}
-     * @see \BitWasp\Bitcoin\Block\BlockHeaderInterface::getPrevBlock()
+     * @see \BitWaspNew\Bitcoin\Block\BlockHeaderInterface::getPrevBlock()
      */
     public function getPrevBlock()
     {
@@ -96,7 +96,7 @@ class BlockHeader extends Serializable implements BlockHeaderInterface
 
     /**
      * {@inheritdoc}
-     * @see \BitWasp\Bitcoin\Block\BlockHeaderInterface::getMerkleRoot()
+     * @see \BitWaspNew\Bitcoin\Block\BlockHeaderInterface::getMerkleRoot()
      */
     public function getMerkleRoot()
     {
@@ -105,7 +105,7 @@ class BlockHeader extends Serializable implements BlockHeaderInterface
 
     /**
      * {@inheritdoc}
-     * @see \BitWasp\Bitcoin\Block\BlockHeaderInterface::getBits()
+     * @see \BitWaspNew\Bitcoin\Block\BlockHeaderInterface::getBits()
      */
     public function getBits()
     {
@@ -114,7 +114,7 @@ class BlockHeader extends Serializable implements BlockHeaderInterface
 
     /**
      * {@inheritdoc}
-     * @see \BitWasp\Bitcoin\Block\BlockHeaderInterface::getNonce()
+     * @see \BitWaspNew\Bitcoin\Block\BlockHeaderInterface::getNonce()
      */
     public function getNonce()
     {
@@ -125,7 +125,7 @@ class BlockHeader extends Serializable implements BlockHeaderInterface
      * Get the timestamp for this block
      *
      * {@inheritdoc}
-     * @see \BitWasp\Bitcoin\Block\BlockHeaderInterface::getTimestamp()
+     * @see \BitWaspNew\Bitcoin\Block\BlockHeaderInterface::getTimestamp()
      */
     public function getTimestamp()
     {

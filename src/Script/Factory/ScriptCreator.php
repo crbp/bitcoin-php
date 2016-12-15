@@ -44,7 +44,7 @@ class ScriptCreator
     }
 
     /**
-     * @param int[]|\BitWasp\Bitcoin\Script\Interpreter\Number[]|BufferInterface[] $sequence
+     * @param int[]|\BitWaspNew\Bitcoin\Script\Interpreter\Number[]|BufferInterface[] $sequence
      * @return $this
      */
     public function sequence(array $sequence)
@@ -126,7 +126,7 @@ class ScriptCreator
         if ($n === 0) {
             $this->script .= chr(Opcodes::OP_0);
         } else if ($n === -1 || ($n >= 1 && $n <= 16)) {
-            $this->script .= chr(\BitWasp\Bitcoin\Script\encodeOpN($n));
+            $this->script .= chr(\BitWaspNew\Bitcoin\Script\encodeOpN($n));
         } else {
             $this->push(Number::int($n)->getBuffer());
         }

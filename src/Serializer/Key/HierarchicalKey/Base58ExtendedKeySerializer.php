@@ -32,7 +32,7 @@ class Base58ExtendedKeySerializer
     /**
      * @param string $base58
      * @return HierarchicalKey
-     * @throws \BitWasp\Bitcoin\Exceptions\Base58ChecksumFailure
+     * @throws \BitWaspNew\Bitcoin\Exceptions\Base58ChecksumFailure
      */
     public function parse($base58)
     {

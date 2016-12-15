@@ -61,7 +61,7 @@ class WifPrivateKeySerializer
     /**
      * @param string $wif
      * @param NetworkInterface|null $network
-     * @return \BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PrivateKey
+     * @return \BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PrivateKey
      * @throws Base58ChecksumFailure
      * @throws InvalidPrivateKey
      */

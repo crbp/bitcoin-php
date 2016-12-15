@@ -61,7 +61,7 @@ class Output extends Message
     /**
      * Clear <amount> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output
      */
     public function clearAmount()
     {
@@ -82,7 +82,7 @@ class Output extends Message
      * Set <amount> value
      *
      * @param int $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output
      */
     public function setAmount($value)
     {
@@ -102,7 +102,7 @@ class Output extends Message
     /**
      * Clear <script> value
      *
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output
      */
     public function clearScript()
     {
@@ -123,7 +123,7 @@ class Output extends Message
      * Set <script> value
      *
      * @param string $value
-     * @return \BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output
+     * @return \BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output
      */
     public function setScript($value)
     {

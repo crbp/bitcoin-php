@@ -19,7 +19,7 @@ class PrivateKeyFactory
      *
      * @param EcAdapterInterface|null $ecAdapter
      * @return \BitWasp\Buffertools\BufferInterface
-     * @throws \BitWasp\Bitcoin\Exceptions\RandomBytesFailure
+     * @throws \BitWaspNew\Bitcoin\Exceptions\RandomBytesFailure
      */
     public static function generateSecret(EcAdapterInterface $ecAdapter = null)
     {
@@ -61,7 +61,7 @@ class PrivateKeyFactory
      * @param string $wif
      * @param EcAdapterInterface|null $ecAdapter
      * @param NetworkInterface $network
-     * @return \BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface
+     * @return \BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface
      * @throws InvalidPrivateKey
      */
     public static function fromWif($wif, EcAdapterInterface $ecAdapter = null, NetworkInterface $network = null)

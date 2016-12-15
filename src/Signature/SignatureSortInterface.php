@@ -7,8 +7,8 @@ use BitWasp\Buffertools\BufferInterface;
 interface SignatureSortInterface
 {
     /**
-     * @param \BitWasp\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface[] $signatures
-     * @param \BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface[] $publicKeys
+     * @param \BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface[] $signatures
+     * @param \BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface[] $publicKeys
      * @param BufferInterface $messageHash
      * @return \SplObjectStorage
      */

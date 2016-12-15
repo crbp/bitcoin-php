@@ -40,7 +40,7 @@ class ScriptFactory
     }
 
     /**
-     * @param int[]|\BitWasp\Bitcoin\Script\Interpreter\Number[]|BufferInterface[] $sequence
+     * @param int[]|\BitWaspNew\Bitcoin\Script\Interpreter\Number[]|BufferInterface[] $sequence
      * @return ScriptInterface
      */
     public static function sequence(array $sequence)
@@ -79,7 +79,7 @@ class ScriptFactory
 
     /**
      * @param EcAdapterInterface|null $ecAdapter
-     * @return \BitWasp\Bitcoin\Script\Consensus\ConsensusInterface
+     * @return \BitWaspNew\Bitcoin\Script\Consensus\ConsensusInterface
      */
     public static function consensus(EcAdapterInterface $ecAdapter = null)
     {

@@ -123,7 +123,7 @@ class Checker
      * @param BufferInterface $signature
      * @param int $flags
      * @return $this
-     * @throws \BitWasp\Bitcoin\Exceptions\ScriptRuntimeException
+     * @throws \BitWaspNew\Bitcoin\Exceptions\ScriptRuntimeException
      */
     public function checkSignatureEncoding(BufferInterface $signature, $flags)
     {
@@ -192,10 +192,10 @@ class Checker
     /**
      * @param int $txLockTime
      * @param int $nThreshold
-     * @param \BitWasp\Bitcoin\Script\Interpreter\Number $lockTime
+     * @param \BitWaspNew\Bitcoin\Script\Interpreter\Number $lockTime
      * @return bool
      */
-    private function verifyLockTime($txLockTime, $nThreshold, \BitWasp\Bitcoin\Script\Interpreter\Number $lockTime)
+    private function verifyLockTime($txLockTime, $nThreshold, \BitWaspNew\Bitcoin\Script\Interpreter\Number $lockTime)
     {
         $nTime = $lockTime->getInt();
         if (($txLockTime < $nThreshold && $nTime < $nThreshold) ||
@@ -208,10 +208,10 @@ class Checker
     }
 
     /**
-     * @param \BitWasp\Bitcoin\Script\Interpreter\Number $lockTime
+     * @param \BitWaspNew\Bitcoin\Script\Interpreter\Number $lockTime
      * @return bool
      */
-    public function checkLockTime(\BitWasp\Bitcoin\Script\Interpreter\Number $lockTime)
+    public function checkLockTime(\BitWaspNew\Bitcoin\Script\Interpreter\Number $lockTime)
     {
         if ($this->transaction->getInput($this->nInput)->isFinal()) {
             return false;
@@ -222,10 +222,10 @@ class Checker
 
 
     /**
-     * @param \BitWasp\Bitcoin\Script\Interpreter\Number $sequence
+     * @param \BitWaspNew\Bitcoin\Script\Interpreter\Number $sequence
      * @return bool
      */
-    public function checkSequence(\BitWasp\Bitcoin\Script\Interpreter\Number $sequence)
+    public function checkSequence(\BitWaspNew\Bitcoin\Script\Interpreter\Number $sequence)
     {
         $txSequence = $this->transaction->getInput($this->nInput)->getSequence();
         if ($this->transaction->getVersion() < 2) {

@@ -21,12 +21,12 @@ class MnemonicFactory
     {
         return new ElectrumMnemonic(
             $ecAdapter ?: Bitcoin::getEcAdapter(),
-            $wordList ?: new \BitWasp\Bitcoin\Mnemonic\Electrum\Wordlist\EnglishWordList()
+            $wordList ?: new \BitWaspNew\Bitcoin\Mnemonic\Electrum\Wordlist\EnglishWordList()
         );
     }
 
     /**
-     * @param \BitWasp\Bitcoin\Mnemonic\Bip39\Bip39WordListInterface $wordList
+     * @param \BitWaspNew\Bitcoin\Mnemonic\Bip39\Bip39WordListInterface $wordList
      * @param EcAdapterInterface $ecAdapter
      * @return Bip39Mnemonic
      */

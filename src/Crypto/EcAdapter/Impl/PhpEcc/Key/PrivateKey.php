@@ -89,7 +89,7 @@ class PrivateKey extends Key implements PrivateKeyInterface, \Mdanter\Ecc\Crypto
     /**
      * @param BufferInterface $msg32
      * @param RbgInterface|null $rbg
-     * @return \BitWasp\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface
+     * @return \BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface
      */
     public function sign(BufferInterface $msg32, RbgInterface $rbg = null)
     {

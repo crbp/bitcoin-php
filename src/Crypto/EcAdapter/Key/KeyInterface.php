@@ -29,7 +29,7 @@ interface KeyInterface extends SerializableInterface
     public function getPubKeyHash();
 
     /**
-     * @return \BitWasp\Bitcoin\Address\PayToPubKeyHashAddress
+     * @return \BitWaspNew\Bitcoin\Address\PayToPubKeyHashAddress
      */
     public function getAddress();
 

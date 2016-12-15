@@ -58,7 +58,7 @@ class AddressFactory
      * @param string $address
      * @param NetworkInterface $network
      * @return AddressInterface
-     * @throws \BitWasp\Bitcoin\Exceptions\Base58ChecksumFailure
+     * @throws \BitWaspNew\Bitcoin\Exceptions\Base58ChecksumFailure
      */
     public static function fromString($address, NetworkInterface $network = null)
     {
@@ -79,7 +79,7 @@ class AddressFactory
      * @param string $address
      * @param NetworkInterface $network
      * @return bool
-     * @throws \BitWasp\Bitcoin\Exceptions\Base58ChecksumFailure
+     * @throws \BitWaspNew\Bitcoin\Exceptions\Base58ChecksumFailure
      */
     public static function isValidAddress($address, NetworkInterface $network = null)
     {

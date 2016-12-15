@@ -62,7 +62,7 @@ class TransactionOutput extends Serializable implements TransactionOutputInterfa
     }
 
     /**
-     * @see \BitWasp\Bitcoin\SerializableInterface::getBuffer()
+     * @see \BitWaspNew\Bitcoin\SerializableInterface::getBuffer()
      */
     public function getBuffer()
     {
