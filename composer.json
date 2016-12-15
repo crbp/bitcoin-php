@@ -1,5 +1,5 @@
 {
-  "name": "bitwasp/bitcoin",
+  "name": "bitwaspnew/bitcoin",
   "description": "PHP Bitcoin library with functions for transactions, signatures, serialization, Random/Deterministic ECDSA keys, blocks, RPC bindings",
   "type": "library",
   "homepage": "https://github.com/bit-wasp/bitcoin-php",
@@ -13,13 +13,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\": "src/"
+      "BitWaspNew\\Bitcoin\\": "src/"
     },
     "files": ["src/Script/functions.php"]
   },
   "autoload-dev": {
     "psr-4": {
-      "BitWasp\\Bitcoin\\Tests\\": "tests/"
+      "BitWaspNew\\Bitcoin\\Tests\\": "tests/"
     }
   },
   "require": {
