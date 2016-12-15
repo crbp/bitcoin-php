@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Address;
+namespace BitWaspNew\Bitcoin\Address;
 
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface AddressInterface
 {

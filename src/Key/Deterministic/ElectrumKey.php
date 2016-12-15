@@ -1,13 +1,13 @@
 <?php
 
-namespace BitWasp\Bitcoin\Key\Deterministic;
+namespace BitWaspNew\Bitcoin\Key\Deterministic;
 
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
-use BitWasp\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
+use BitWaspNew\Buffertools\Buffer;
 
 class ElectrumKey
 {

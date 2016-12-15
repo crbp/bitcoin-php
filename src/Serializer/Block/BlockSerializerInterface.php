@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Block;
+namespace BitWaspNew\Bitcoin\Serializer\Block;
 
-use BitWasp\Bitcoin\Block\BlockInterface;
-use BitWasp\Buffertools\Exceptions\ParserOutOfRange;
-use BitWasp\Buffertools\Parser;
+use BitWaspNew\Bitcoin\Block\BlockInterface;
+use BitWaspNew\Buffertools\Exceptions\ParserOutOfRange;
+use BitWaspNew\Buffertools\Parser;
 
 interface BlockSerializerInterface
 {

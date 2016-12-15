@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Interpreter;
+namespace BitWaspNew\Bitcoin\Script\Interpreter;
 
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Stack implements \Countable, \ArrayAccess, \Iterator
 {

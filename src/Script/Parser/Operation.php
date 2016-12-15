@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Parser;
+namespace BitWaspNew\Bitcoin\Script\Parser;
 
-use BitWasp\Bitcoin\Script\Opcodes;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Script\Opcodes;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Operation
 {

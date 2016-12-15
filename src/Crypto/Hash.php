@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto;
+namespace BitWaspNew\Bitcoin\Crypto;
 
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Hash
 {

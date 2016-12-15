@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Mutator;
+namespace BitWaspNew\Bitcoin\Transaction\Mutator;
 
 abstract class AbstractCollectionMutator implements \Iterator, \ArrayAccess, \Countable
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Math;
+namespace BitWaspNew\Bitcoin\Math;
 
 use \Mdanter\Ecc\Math\GmpMath;
 use Mdanter\Ecc\Util\NumberSize;

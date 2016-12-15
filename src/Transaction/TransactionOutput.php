@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction;
+namespace BitWaspNew\Bitcoin\Transaction;
 
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Bitcoin\Serializer\Transaction\TransactionOutputSerializer;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Bitcoin\Serializer\Transaction\TransactionOutputSerializer;
 
 class TransactionOutput extends Serializable implements TransactionOutputInterface
 {

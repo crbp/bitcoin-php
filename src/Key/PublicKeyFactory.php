@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Key;
+namespace BitWaspNew\Bitcoin\Key;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\EcSerializer;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Key\PublicKeySerializerInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\EcSerializer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Key\PublicKeySerializerInterface;
 
 class PublicKeyFactory
 {

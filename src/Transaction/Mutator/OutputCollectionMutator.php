@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Mutator;
+namespace BitWaspNew\Bitcoin\Transaction\Mutator;
 
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
 
 class OutputCollectionMutator extends AbstractCollectionMutator
 {

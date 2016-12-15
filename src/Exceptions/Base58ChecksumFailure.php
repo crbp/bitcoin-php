@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Exceptions;
+namespace BitWaspNew\Bitcoin\Exceptions;
 
 class Base58ChecksumFailure extends \Exception
 {

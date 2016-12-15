@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\SignatureHash;
+namespace BitWaspNew\Bitcoin\Transaction\SignatureHash;
 
-use BitWasp\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
 
 interface SigHashInterface
 {

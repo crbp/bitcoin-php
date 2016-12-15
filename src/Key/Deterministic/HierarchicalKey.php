@@ -1,20 +1,20 @@
 <?php
 
-namespace BitWasp\Bitcoin\Key\Deterministic;
+namespace BitWaspNew\Bitcoin\Key\Deterministic;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Serializer\Key\HierarchicalKey\Base58ExtendedKeySerializer;
-use BitWasp\Bitcoin\Serializer\Key\HierarchicalKey\ExtendedKeySerializer;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Buffertools;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Serializer\Key\HierarchicalKey\Base58ExtendedKeySerializer;
+use BitWaspNew\Bitcoin\Serializer\Key\HierarchicalKey\ExtendedKeySerializer;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Buffertools;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
 
 class HierarchicalKey
 {

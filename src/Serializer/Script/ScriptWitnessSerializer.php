@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Script;
+namespace BitWaspNew\Bitcoin\Serializer\Script;
 
-use BitWasp\Bitcoin\Script\ScriptWitness;
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Bitcoin\Script\ScriptWitness;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class ScriptWitnessSerializer
 {

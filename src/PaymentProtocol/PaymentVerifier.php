@@ -1,14 +1,14 @@
 <?php
 
-namespace BitWasp\Bitcoin\PaymentProtocol;
+namespace BitWaspNew\Bitcoin\PaymentProtocol;
 
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\Payment;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentRequest;
-use BitWasp\Bitcoin\Transaction\TransactionFactory;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Payment;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentRequest;
+use BitWaspNew\Bitcoin\Transaction\TransactionFactory;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Buffertools\Buffer;
 
 class PaymentVerifier
 {

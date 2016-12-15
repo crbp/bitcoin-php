@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Block;
+namespace BitWaspNew\Bitcoin\Block;
 
-use BitWasp\Bitcoin\Bloom\BloomFilter;
-use BitWasp\Bitcoin\SerializableInterface;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Bloom\BloomFilter;
+use BitWaspNew\Bitcoin\SerializableInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface BlockInterface extends SerializableInterface
 {

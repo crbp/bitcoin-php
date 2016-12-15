@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\ScriptInfo;
+namespace BitWaspNew\Bitcoin\Script\ScriptInfo;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
 
 interface ScriptInfoInterface
 {

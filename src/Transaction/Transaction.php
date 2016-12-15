@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction;
+namespace BitWaspNew\Bitcoin\Transaction;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Bitcoin\Serializer\Transaction\OldTransactionSerializer;
-use BitWasp\Bitcoin\Serializer\Transaction\TransactionSerializer;
-use BitWasp\Bitcoin\Utxo\Utxo;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Bitcoin\Serializer\Transaction\OldTransactionSerializer;
+use BitWaspNew\Bitcoin\Serializer\Transaction\TransactionSerializer;
+use BitWaspNew\Bitcoin\Utxo\Utxo;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Transaction extends Serializable implements TransactionInterface
 {

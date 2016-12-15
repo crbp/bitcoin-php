@@ -1,13 +1,13 @@
 <?php
 
-namespace BitWasp\Bitcoin\Chain;
+namespace BitWaspNew\Bitcoin\Chain;
 
-use BitWasp\Bitcoin\Block\Block;
-use BitWasp\Bitcoin\Block\BlockHeader;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Script\ScriptFactory;
-use BitWasp\Bitcoin\Transaction\Factory\TxBuilder;
-use BitWasp\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Block\Block;
+use BitWaspNew\Bitcoin\Block\BlockHeader;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Script\ScriptFactory;
+use BitWaspNew\Bitcoin\Transaction\Factory\TxBuilder;
+use BitWaspNew\Buffertools\Buffer;
 
 class Params implements ParamsInterface
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace BitWasp\Bitcoin\Block;
+namespace BitWaspNew\Bitcoin\Block;
 
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Bitcoin\Serializer\Block\BlockHeaderSerializer;
-use BitWasp\Bitcoin\Serializer\Block\BlockSerializer;
-use BitWasp\Bitcoin\Bloom\BloomFilter;
-use BitWasp\Bitcoin\Serializer\Transaction\TransactionSerializer;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Bitcoin\Serializer\Block\BlockHeaderSerializer;
+use BitWaspNew\Bitcoin\Serializer\Block\BlockSerializer;
+use BitWaspNew\Bitcoin\Bloom\BloomFilter;
+use BitWaspNew\Bitcoin\Serializer\Transaction\TransactionSerializer;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
 
 class Block extends Serializable implements BlockInterface
 {

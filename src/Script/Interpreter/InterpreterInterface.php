@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Interpreter;
+namespace BitWaspNew\Bitcoin\Script\Interpreter;
 
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
 
 interface InterpreterInterface
 {

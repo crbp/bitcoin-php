@@ -1,13 +1,13 @@
 <?php
 
-namespace BitWasp\Bitcoin\Mnemonic;
+namespace BitWaspNew\Bitcoin\Mnemonic;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Mnemonic\Bip39\Bip39Mnemonic;
-use BitWasp\Bitcoin\Mnemonic\Bip39\Bip39WordListInterface;
-use BitWasp\Bitcoin\Mnemonic\Electrum\ElectrumMnemonic;
-use BitWasp\Bitcoin\Mnemonic\Electrum\ElectrumWordListInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Mnemonic\Bip39\Bip39Mnemonic;
+use BitWaspNew\Bitcoin\Mnemonic\Bip39\Bip39WordListInterface;
+use BitWaspNew\Bitcoin\Mnemonic\Electrum\ElectrumMnemonic;
+use BitWaspNew\Bitcoin\Mnemonic\Electrum\ElectrumWordListInterface;
 
 class MnemonicFactory
 {

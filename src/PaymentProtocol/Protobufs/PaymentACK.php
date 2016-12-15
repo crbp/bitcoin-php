@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\PaymentProtocol\Protobufs;
+namespace BitWaspNew\Bitcoin\PaymentProtocol\Protobufs;
 
 class PaymentACK extends \DrSlump\Protobuf\Message
 {

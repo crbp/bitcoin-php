@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Signature;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Signature;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Signature\CompactSignatureSerializerInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Buffertools\Exceptions\ParserOutOfRange;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Signature\CompactSignature;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\CompactSignatureSerializerInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Buffertools\Exceptions\ParserOutOfRange;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Signature\CompactSignature;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class CompactSignatureSerializer implements CompactSignatureSerializerInterface
 {

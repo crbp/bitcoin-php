@@ -1,16 +1,16 @@
 <?php
 
-namespace BitWasp\Bitcoin\Key;
+namespace BitWaspNew\Bitcoin\Key;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\EcSerializer;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Key\PrivateKeySerializerInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\Random\Random;
-use BitWasp\Bitcoin\Exceptions\InvalidPrivateKey;
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Bitcoin\Serializer\Key\PrivateKey\WifPrivateKeySerializer;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\EcSerializer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Key\PrivateKeySerializerInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\Random\Random;
+use BitWaspNew\Bitcoin\Exceptions\InvalidPrivateKey;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Bitcoin\Serializer\Key\PrivateKey\WifPrivateKeySerializer;
 
 class PrivateKeyFactory
 {

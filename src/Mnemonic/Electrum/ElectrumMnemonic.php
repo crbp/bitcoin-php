@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Mnemonic\Electrum;
+namespace BitWaspNew\Bitcoin\Mnemonic\Electrum;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Mnemonic\MnemonicInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Mnemonic\MnemonicInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class ElectrumMnemonic implements MnemonicInterface
 {

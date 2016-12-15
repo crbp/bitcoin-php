@@ -1,13 +1,13 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Key\PublicKeySerializer;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\Key;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Key\PublicKeySerializer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\Key;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 use Mdanter\Ecc\Primitives\PointInterface;
 
 class PublicKey extends Key implements PublicKeyInterface, \Mdanter\Ecc\Crypto\Key\PublicKeyInterface

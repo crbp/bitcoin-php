@@ -1,36 +1,36 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Factory;
+namespace BitWaspNew\Bitcoin\Transaction\Factory;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
-use BitWasp\Bitcoin\Crypto\Random\Rfc6979;
-use BitWasp\Bitcoin\Key\PublicKeyFactory;
-use BitWasp\Bitcoin\Script\Classifier\OutputClassifier;
-use BitWasp\Bitcoin\Script\Classifier\OutputData;
-use BitWasp\Bitcoin\Script\Interpreter\Checker;
-use BitWasp\Bitcoin\Script\Interpreter\Interpreter;
-use BitWasp\Bitcoin\Script\Interpreter\Stack;
-use BitWasp\Bitcoin\Script\Opcodes;
-use BitWasp\Bitcoin\Script\Script;
-use BitWasp\Bitcoin\Script\ScriptFactory;
-use BitWasp\Bitcoin\Script\ScriptInfo\Multisig;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Script\ScriptWitness;
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
-use BitWasp\Bitcoin\Signature\SignatureSort;
-use BitWasp\Bitcoin\Signature\TransactionSignature;
-use BitWasp\Bitcoin\Signature\TransactionSignatureFactory;
-use BitWasp\Bitcoin\Signature\TransactionSignatureInterface;
-use BitWasp\Bitcoin\Transaction\SignatureHash\Hasher;
-use BitWasp\Bitcoin\Transaction\SignatureHash\SigHash;
-use BitWasp\Bitcoin\Transaction\SignatureHash\V1Hasher;
-use BitWasp\Bitcoin\Transaction\TransactionFactory;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\Random\Rfc6979;
+use BitWaspNew\Bitcoin\Key\PublicKeyFactory;
+use BitWaspNew\Bitcoin\Script\Classifier\OutputClassifier;
+use BitWaspNew\Bitcoin\Script\Classifier\OutputData;
+use BitWaspNew\Bitcoin\Script\Interpreter\Checker;
+use BitWaspNew\Bitcoin\Script\Interpreter\Interpreter;
+use BitWaspNew\Bitcoin\Script\Interpreter\Stack;
+use BitWaspNew\Bitcoin\Script\Opcodes;
+use BitWaspNew\Bitcoin\Script\Script;
+use BitWaspNew\Bitcoin\Script\ScriptFactory;
+use BitWaspNew\Bitcoin\Script\ScriptInfo\Multisig;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Script\ScriptWitness;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Bitcoin\Signature\SignatureSort;
+use BitWaspNew\Bitcoin\Signature\TransactionSignature;
+use BitWaspNew\Bitcoin\Signature\TransactionSignatureFactory;
+use BitWaspNew\Bitcoin\Signature\TransactionSignatureInterface;
+use BitWaspNew\Bitcoin\Transaction\SignatureHash\Hasher;
+use BitWaspNew\Bitcoin\Transaction\SignatureHash\SigHash;
+use BitWaspNew\Bitcoin\Transaction\SignatureHash\V1Hasher;
+use BitWaspNew\Bitcoin\Transaction\TransactionFactory;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class InputSigner
 {

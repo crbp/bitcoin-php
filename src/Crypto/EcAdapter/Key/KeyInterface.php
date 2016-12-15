@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Key;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Key;
 
-use BitWasp\Bitcoin\SerializableInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\SerializableInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface KeyInterface extends SerializableInterface
 {

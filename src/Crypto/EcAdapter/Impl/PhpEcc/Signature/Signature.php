@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Signature;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Signature;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Signature\DerSignatureSerializer;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWasp\Bitcoin\Serializable;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Signature\DerSignatureSerializer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
+use BitWaspNew\Bitcoin\Serializable;
 
 class Signature extends Serializable implements SignatureInterface
 {

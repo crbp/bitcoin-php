@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script;
+namespace BitWaspNew\Bitcoin\Script;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Script\Classifier\OutputClassifier;
-use BitWasp\Bitcoin\Script\Interpreter\InterpreterInterface;
-use BitWasp\Bitcoin\Script\Parser\Parser;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Script\Classifier\OutputClassifier;
+use BitWaspNew\Bitcoin\Script\Interpreter\InterpreterInterface;
+use BitWaspNew\Bitcoin\Script\Parser\Parser;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Script extends Serializable implements ScriptInterface
 {

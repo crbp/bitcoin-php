@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Mutator;
+namespace BitWaspNew\Bitcoin\Transaction\Mutator;
 
-use BitWasp\Bitcoin\Script\Script;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Transaction\TransactionOutput;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Bitcoin\Script\Script;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutput;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
 
 class OutputMutator
 {

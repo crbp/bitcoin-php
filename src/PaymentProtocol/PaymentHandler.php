@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\PaymentProtocol;
+namespace BitWaspNew\Bitcoin\PaymentProtocol;
 
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\Payment;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentACK;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Payment;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentACK;
 
 class PaymentHandler
 {

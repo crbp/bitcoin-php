@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Signature;
+namespace BitWaspNew\Bitcoin\Signature;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\EcSerializer;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Signature\DerSignatureSerializerInterface;
-use BitWasp\Bitcoin\Serializer\Signature\TransactionSignatureSerializer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\EcSerializer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\DerSignatureSerializerInterface;
+use BitWaspNew\Bitcoin\Serializer\Signature\TransactionSignatureSerializer;
 
 class TransactionSignatureFactory
 {

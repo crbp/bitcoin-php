@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script;
+namespace BitWaspNew\Bitcoin\Script;
 
-use BitWasp\Bitcoin\Collection\CollectionInterface;
-use BitWasp\Buffertools\SerializableInterface;
+use BitWaspNew\Bitcoin\Collection\CollectionInterface;
+use BitWaspNew\Buffertools\SerializableInterface;
 
 interface ScriptWitnessInterface extends CollectionInterface, SerializableInterface
 {

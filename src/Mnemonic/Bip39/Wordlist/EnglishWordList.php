@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Mnemonic\Bip39\Wordlist;
+namespace BitWaspNew\Bitcoin\Mnemonic\Bip39\Wordlist;
 
-use BitWasp\Bitcoin\Mnemonic\Bip39\Bip39WordListInterface;
-use BitWasp\Bitcoin\Mnemonic\WordList;
+use BitWaspNew\Bitcoin\Mnemonic\Bip39\Bip39WordListInterface;
+use BitWaspNew\Bitcoin\Mnemonic\WordList;
 
 class EnglishWordList extends WordList implements Bip39WordListInterface
 {

@@ -1,20 +1,20 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Key\PublicKey;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Key\PrivateKey;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Signature\CompactSignature;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Signature\Signature;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWasp\Bitcoin\Crypto\Random\RbgInterface;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Key\PublicKey;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Key\PrivateKey;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Signature\CompactSignature;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Signature\Signature;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
+use BitWaspNew\Bitcoin\Crypto\Random\RbgInterface;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 use Mdanter\Ecc\Primitives\GeneratorPoint;
 
 class EcAdapter implements EcAdapterInterface

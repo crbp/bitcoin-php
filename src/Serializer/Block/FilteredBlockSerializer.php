@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Block;
+namespace BitWaspNew\Bitcoin\Serializer\Block;
 
-use BitWasp\Bitcoin\Block\FilteredBlock;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Buffertools;
-use BitWasp\Buffertools\Parser;
+use BitWaspNew\Bitcoin\Block\FilteredBlock;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Buffertools;
+use BitWaspNew\Buffertools\Parser;
 
 class FilteredBlockSerializer
 {

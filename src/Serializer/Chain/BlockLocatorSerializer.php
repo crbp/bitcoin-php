@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Chain;
+namespace BitWaspNew\Bitcoin\Serializer\Chain;
 
-use BitWasp\Bitcoin\Chain\BlockLocator;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Bitcoin\Chain\BlockLocator;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class BlockLocatorSerializer
 {

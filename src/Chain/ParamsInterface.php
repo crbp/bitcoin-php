@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Chain;
+namespace BitWaspNew\Bitcoin\Chain;
 
-use BitWasp\Bitcoin\Block\BlockHeaderInterface;
-use BitWasp\Bitcoin\Block\BlockInterface;
+use BitWaspNew\Bitcoin\Block\BlockHeaderInterface;
+use BitWaspNew\Bitcoin\Block\BlockInterface;
 
 interface ParamsInterface
 {

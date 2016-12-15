@@ -1,19 +1,19 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Key;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Key;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Serializer\Key\PrivateKeySerializer;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Signature\Signature;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\Key;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Crypto\Random\RbgInterface;
-use BitWasp\Bitcoin\Exceptions\InvalidPrivateKey;
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Bitcoin\Serializer\Key\PrivateKey\WifPrivateKeySerializer;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Serializer\Key\PrivateKeySerializer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Signature\Signature;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\Key;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Bitcoin\Crypto\Random\RbgInterface;
+use BitWaspNew\Bitcoin\Exceptions\InvalidPrivateKey;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Bitcoin\Serializer\Key\PrivateKey\WifPrivateKeySerializer;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class PrivateKey extends Key implements PrivateKeyInterface
 {

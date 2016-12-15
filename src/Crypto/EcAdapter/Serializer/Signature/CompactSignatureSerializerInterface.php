@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Signature;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface CompactSignatureSerializerInterface
 {

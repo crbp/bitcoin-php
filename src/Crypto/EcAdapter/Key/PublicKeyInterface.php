@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Key;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Key;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface PublicKeyInterface extends KeyInterface
 {

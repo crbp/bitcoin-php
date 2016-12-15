@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Mutator;
+namespace BitWaspNew\Bitcoin\Transaction\Mutator;
 
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
-use BitWasp\Bitcoin\Transaction\Transaction;
-use BitWasp\Bitcoin\Transaction\TransactionInputInterface;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Bitcoin\Transaction\Transaction;
+use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
 
 class TxMutator
 {

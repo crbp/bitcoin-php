@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Transaction;
+namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
-use BitWasp\Bitcoin\Transaction\OutPoint;
-use BitWasp\Bitcoin\Transaction\OutPointInterface;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Bitcoin\Transaction\OutPoint;
+use BitWaspNew\Bitcoin\Transaction\OutPointInterface;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class OutPointSerializer implements OutPointSerializerInterface
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Block;
+namespace BitWaspNew\Bitcoin\Serializer\Block;
 
-use BitWasp\Bitcoin\Block\BlockInterface;
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Bitcoin\Block\BlockInterface;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class BitcoindBlockSerializer
 {

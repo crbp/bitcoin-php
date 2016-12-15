@@ -1,18 +1,18 @@
 <?php
 
 
-namespace BitWasp\Bitcoin\Serializer\Key\HierarchicalKey;
+namespace BitWaspNew\Bitcoin\Serializer\Key\HierarchicalKey;
 
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Exceptions\ParserOutOfRange;
-use BitWasp\Bitcoin\Key\PrivateKeyFactory;
-use BitWasp\Bitcoin\Key\PublicKeyFactory;
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Bitcoin\Key\Deterministic\HierarchicalKey;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Exceptions\ParserOutOfRange;
+use BitWaspNew\Bitcoin\Key\PrivateKeyFactory;
+use BitWaspNew\Bitcoin\Key\PublicKeyFactory;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Bitcoin\Key\Deterministic\HierarchicalKey;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class ExtendedKeySerializer
 {

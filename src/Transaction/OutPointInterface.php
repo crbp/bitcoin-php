@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction;
+namespace BitWaspNew\Bitcoin\Transaction;
 
-use BitWasp\Bitcoin\SerializableInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\SerializableInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface OutPointInterface extends SerializableInterface
 {

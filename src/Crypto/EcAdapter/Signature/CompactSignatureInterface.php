@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Signature;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature;
 
 interface CompactSignatureInterface extends SignatureInterface
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Mnemonic;
+namespace BitWaspNew\Bitcoin\Mnemonic;
 
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface MnemonicInterface
 {

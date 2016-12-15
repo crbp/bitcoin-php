@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\MessageSigner;
+namespace BitWaspNew\Bitcoin\Serializer\MessageSigner;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Signature\CompactSignatureSerializerInterface;
-use BitWasp\Bitcoin\MessageSigner\SignedMessage;
-use BitWasp\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\CompactSignatureSerializerInterface;
+use BitWaspNew\Bitcoin\MessageSigner\SignedMessage;
+use BitWaspNew\Buffertools\Buffer;
 
 class SignedMessageSerializer
 {

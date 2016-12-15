@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Block;
+namespace BitWaspNew\Bitcoin\Block;
 
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Bitcoin\Serializer\Block\BlockHeaderSerializer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Bitcoin\Serializer\Block\BlockHeaderSerializer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class BlockHeader extends Serializable implements BlockHeaderInterface
 {

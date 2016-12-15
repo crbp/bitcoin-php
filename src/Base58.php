@@ -1,13 +1,13 @@
 <?php
 
-namespace BitWasp\Bitcoin;
+namespace BitWaspNew\Bitcoin;
 
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Exceptions\Base58ChecksumFailure;
-use BitWasp\Bitcoin\Exceptions\Base58InvalidCharacter;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Buffertools;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Exceptions\Base58ChecksumFailure;
+use BitWaspNew\Bitcoin\Exceptions\Base58InvalidCharacter;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Buffertools;
 
 class Base58
 {

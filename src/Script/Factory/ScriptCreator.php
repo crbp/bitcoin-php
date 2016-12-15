@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Factory;
+namespace BitWaspNew\Bitcoin\Script\Factory;
 
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Script\Interpreter\Number;
-use BitWasp\Bitcoin\Script\Opcodes;
-use BitWasp\Bitcoin\Script\Script;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Script\Interpreter\Number;
+use BitWaspNew\Bitcoin\Script\Opcodes;
+use BitWaspNew\Bitcoin\Script\Script;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class ScriptCreator
 {

@@ -1,22 +1,22 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Interpreter;
+namespace BitWaspNew\Bitcoin\Script\Interpreter;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Exceptions\ScriptRuntimeException;
-use BitWasp\Bitcoin\Exceptions\SignatureNotCanonical;
-use BitWasp\Bitcoin\Key\PublicKeyFactory;
-use BitWasp\Bitcoin\Locktime;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Signature\TransactionSignature;
-use BitWasp\Bitcoin\Signature\TransactionSignatureFactory;
-use BitWasp\Bitcoin\Transaction\SignatureHash\Hasher;
-use BitWasp\Bitcoin\Transaction\SignatureHash\SigHash;
-use BitWasp\Bitcoin\Transaction\SignatureHash\V1Hasher;
-use BitWasp\Bitcoin\Transaction\TransactionInputInterface;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Exceptions\ScriptRuntimeException;
+use BitWaspNew\Bitcoin\Exceptions\SignatureNotCanonical;
+use BitWaspNew\Bitcoin\Key\PublicKeyFactory;
+use BitWaspNew\Bitcoin\Locktime;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Signature\TransactionSignature;
+use BitWaspNew\Bitcoin\Signature\TransactionSignatureFactory;
+use BitWaspNew\Bitcoin\Transaction\SignatureHash\Hasher;
+use BitWaspNew\Bitcoin\Transaction\SignatureHash\SigHash;
+use BitWaspNew\Bitcoin\Transaction\SignatureHash\V1Hasher;
+use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Checker
 {

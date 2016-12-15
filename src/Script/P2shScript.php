@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script;
+namespace BitWaspNew\Bitcoin\Script;
 
-use BitWasp\Bitcoin\Address\AddressFactory;
+use BitWaspNew\Bitcoin\Address\AddressFactory;
 
 class P2shScript extends Script
 {

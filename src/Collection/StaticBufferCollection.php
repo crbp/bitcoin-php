@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Collection;
+namespace BitWaspNew\Bitcoin\Collection;
 
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class StaticBufferCollection extends StaticCollection
 {

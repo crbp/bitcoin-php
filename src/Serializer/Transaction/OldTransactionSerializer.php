@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Transaction;
+namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
-use BitWasp\Bitcoin\Transaction\Factory\TxBuilder;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Bitcoin\Transaction\Transaction;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Bitcoin\Transaction\Factory\TxBuilder;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Bitcoin\Transaction\Transaction;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class OldTransactionSerializer
 {

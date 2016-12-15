@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\Random;
+namespace BitWaspNew\Bitcoin\Crypto\Random;
 
 interface RbgInterface
 {

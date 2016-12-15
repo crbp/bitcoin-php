@@ -1,14 +1,14 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Factory;
+namespace BitWaspNew\Bitcoin\Transaction\Factory;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Transaction\SignatureHash\SigHash;
-use BitWasp\Bitcoin\Transaction\TransactionFactory;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Bitcoin\Transaction\SignatureHash\SigHash;
+use BitWaspNew\Bitcoin\Transaction\TransactionFactory;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
 
 class Signer
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Bip69;
+namespace BitWaspNew\Bitcoin\Transaction\Bip69;
 
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
-use BitWasp\Bitcoin\Transaction\Mutator\TxMutator;
-use BitWasp\Bitcoin\Transaction\TransactionInputInterface;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Bitcoin\Transaction\Mutator\TxMutator;
+use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
 
 class Bip69
 {

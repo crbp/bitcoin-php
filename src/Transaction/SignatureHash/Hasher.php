@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\SignatureHash;
+namespace BitWaspNew\Bitcoin\Transaction\SignatureHash;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Transaction\Mutator\TxMutator;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Buffertools;
-use BitWasp\Bitcoin\Script\Script;
-use BitWasp\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Transaction\Mutator\TxMutator;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Buffertools;
+use BitWaspNew\Bitcoin\Script\Script;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
 
 class Hasher extends SigHash
 {

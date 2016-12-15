@@ -1,13 +1,13 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Classifier;
+namespace BitWaspNew\Bitcoin\Script\Classifier;
 
-use BitWasp\Bitcoin\Script\Parser\Operation;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
-use BitWasp\Bitcoin\Script\Opcodes;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Script\Parser\Operation;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
+use BitWaspNew\Bitcoin\Script\Opcodes;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class OutputClassifier
 {

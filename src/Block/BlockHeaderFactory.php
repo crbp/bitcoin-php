@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Block;
+namespace BitWaspNew\Bitcoin\Block;
 
-use BitWasp\Bitcoin\Serializer\Block\BlockHeaderSerializer;
+use BitWaspNew\Bitcoin\Serializer\Block\BlockHeaderSerializer;
 
 class BlockHeaderFactory
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Block;
+namespace BitWaspNew\Bitcoin\Serializer\Block;
 
-use BitWasp\Bitcoin\Block\Block;
-use BitWasp\Bitcoin\Serializer\Transaction\TransactionSerializerInterface;
-use BitWasp\Buffertools\Buffertools;
-use BitWasp\Buffertools\Exceptions\ParserOutOfRange;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Bitcoin\Block\BlockInterface;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Bitcoin\Block\Block;
+use BitWaspNew\Bitcoin\Serializer\Transaction\TransactionSerializerInterface;
+use BitWaspNew\Buffertools\Buffertools;
+use BitWaspNew\Buffertools\Exceptions\ParserOutOfRange;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Bitcoin\Block\BlockInterface;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class BlockSerializer implements BlockSerializerInterface
 {

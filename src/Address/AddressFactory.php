@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Address;
+namespace BitWaspNew\Bitcoin\Address;
 
-use BitWasp\Bitcoin\Base58;
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Bitcoin\Script\Classifier\OutputClassifier;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Key\PublicKeyFactory;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Base58;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Bitcoin\Script\Classifier\OutputClassifier;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Key\PublicKeyFactory;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class AddressFactory
 {

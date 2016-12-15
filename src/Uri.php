@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin;
+namespace BitWaspNew\Bitcoin;
 
-use BitWasp\Bitcoin\Address\AddressInterface;
-use BitWasp\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Bitcoin\Address\AddressInterface;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
 
 class Uri
 {

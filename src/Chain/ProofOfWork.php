@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Chain;
+namespace BitWaspNew\Bitcoin\Chain;
 
-use BitWasp\Bitcoin\Block\BlockHeaderInterface;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Block\BlockHeaderInterface;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class ProofOfWork
 {

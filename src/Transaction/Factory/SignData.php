@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Factory;
+namespace BitWaspNew\Bitcoin\Transaction\Factory;
 
-use BitWasp\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
 
 class SignData
 {

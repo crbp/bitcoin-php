@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\Random;
+namespace BitWaspNew\Bitcoin\Crypto\Random;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 use Mdanter\Ecc\Crypto\Key\PrivateKey as MdPrivateKey;
 use Mdanter\Ecc\Random\HmacRandomNumberGenerator;
 use Mdanter\Ecc\Random\RandomGeneratorFactory;

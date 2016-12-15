@@ -1,20 +1,20 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Transaction;
+namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Serializer\Script\ScriptWitnessSerializer;
-use BitWasp\Bitcoin\Transaction\Transaction;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\ByteOrder;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Buffertools\Types\Int32;
-use BitWasp\Buffertools\Types\Int8;
-use BitWasp\Buffertools\Types\Uint32;
-use BitWasp\Buffertools\Types\VarInt;
-use BitWasp\Buffertools\Types\Vector;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Serializer\Script\ScriptWitnessSerializer;
+use BitWaspNew\Bitcoin\Transaction\Transaction;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\ByteOrder;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Buffertools\Types\Int32;
+use BitWaspNew\Buffertools\Types\Int8;
+use BitWaspNew\Buffertools\Types\Uint32;
+use BitWaspNew\Buffertools\Types\VarInt;
+use BitWaspNew\Buffertools\Types\Vector;
 
 class TransactionSerializer implements TransactionSerializerInterface
 {

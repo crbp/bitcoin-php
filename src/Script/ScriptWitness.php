@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script;
+namespace BitWaspNew\Bitcoin\Script;
 
-use BitWasp\Bitcoin\Collection\StaticBufferCollection;
-use BitWasp\Bitcoin\Serializer\Script\ScriptWitnessSerializer;
+use BitWaspNew\Bitcoin\Collection\StaticBufferCollection;
+use BitWaspNew\Bitcoin\Serializer\Script\ScriptWitnessSerializer;
 
 class ScriptWitness extends StaticBufferCollection implements ScriptWitnessInterface
 {

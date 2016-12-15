@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Mnemonic;
+namespace BitWaspNew\Bitcoin\Mnemonic;
 
 interface WordListInterface extends \Countable
 {

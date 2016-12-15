@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Mutator;
+namespace BitWaspNew\Bitcoin\Transaction\Mutator;
 
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
 
 class WitnessCollectionMutator extends AbstractCollectionMutator
 {

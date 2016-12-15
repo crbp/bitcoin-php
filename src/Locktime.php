@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin;
+namespace BitWaspNew\Bitcoin;
 
 class Locktime
 {

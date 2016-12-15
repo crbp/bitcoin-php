@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Mnemonic\Bip39;
+namespace BitWaspNew\Bitcoin\Mnemonic\Bip39;
 
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Bip39SeedGenerator
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction;
+namespace BitWaspNew\Bitcoin\Transaction;
 
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
-use BitWasp\Bitcoin\SerializableInterface;
-use BitWasp\Bitcoin\Utxo\Utxo;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Bitcoin\SerializableInterface;
+use BitWaspNew\Bitcoin\Utxo\Utxo;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface TransactionInterface extends SerializableInterface
 {

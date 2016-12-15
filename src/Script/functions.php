@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script;
+namespace BitWaspNew\Bitcoin\Script;
 
 function decodeOpN($op)
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Block;
+namespace BitWaspNew\Bitcoin\Block;
 
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Bitcoin\Serializer\Block\BlockHeaderSerializer;
-use BitWasp\Bitcoin\Serializer\Block\FilteredBlockSerializer;
-use BitWasp\Bitcoin\Serializer\Block\PartialMerkleTreeSerializer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Bitcoin\Serializer\Block\BlockHeaderSerializer;
+use BitWaspNew\Bitcoin\Serializer\Block\FilteredBlockSerializer;
+use BitWaspNew\Bitcoin\Serializer\Block\PartialMerkleTreeSerializer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class FilteredBlock extends Serializable
 {

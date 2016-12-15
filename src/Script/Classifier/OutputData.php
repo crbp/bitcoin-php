@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Classifier;
+namespace BitWaspNew\Bitcoin\Script\Classifier;
 
-use BitWasp\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
 
 class OutputData
 {

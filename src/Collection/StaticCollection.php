@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Collection;
+namespace BitWaspNew\Bitcoin\Collection;
 
 abstract class StaticCollection implements CollectionInterface
 {

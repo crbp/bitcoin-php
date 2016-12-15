@@ -1,14 +1,14 @@
 <?php
 
-namespace BitWasp\Bitcoin\PaymentProtocol;
+namespace BitWaspNew\Bitcoin\PaymentProtocol;
 
-use BitWasp\Bitcoin\Address\AddressInterface;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\Output;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentRequest;
-use BitWasp\Bitcoin\Script\ScriptFactory;
-use BitWasp\Bitcoin\Transaction\TransactionOutput;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Bitcoin\Address\AddressInterface;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Output;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentRequest;
+use BitWaspNew\Bitcoin\Script\ScriptFactory;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutput;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
 
 class RequestBuilder
 {

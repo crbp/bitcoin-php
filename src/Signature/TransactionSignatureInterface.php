@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Signature;
+namespace BitWaspNew\Bitcoin\Signature;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWasp\Bitcoin\SerializableInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
+use BitWaspNew\Bitcoin\SerializableInterface;
 
 interface TransactionSignatureInterface extends SerializableInterface
 {

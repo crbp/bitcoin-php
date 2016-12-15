@@ -1,13 +1,13 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Transaction;
+namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Bitcoin\Script\Script;
-use BitWasp\Bitcoin\Transaction\TransactionOutput;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Bitcoin\Script\Script;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutput;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class TransactionOutputSerializer
 {

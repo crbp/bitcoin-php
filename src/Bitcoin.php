@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin;
+namespace BitWaspNew\Bitcoin;
 
-use BitWasp\Bitcoin\Chain\Params;
-use BitWasp\Bitcoin\Chain\ParamsInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\EcAdapterFactory;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Network\Network;
-use BitWasp\Bitcoin\Network\NetworkFactory;
-use BitWasp\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Bitcoin\Chain\Params;
+use BitWaspNew\Bitcoin\Chain\ParamsInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\EcAdapterFactory;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Network\Network;
+use BitWaspNew\Bitcoin\Network\NetworkFactory;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
 use Mdanter\Ecc\EccFactory;
 use Mdanter\Ecc\Primitives\GeneratorPoint;
 

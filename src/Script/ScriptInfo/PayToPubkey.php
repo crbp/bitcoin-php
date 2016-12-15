@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\ScriptInfo;
+namespace BitWaspNew\Bitcoin\Script\ScriptInfo;
 
-use BitWasp\Bitcoin\Key\PublicKeyFactory;
-use BitWasp\Bitcoin\Script\Opcodes;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
+use BitWaspNew\Bitcoin\Key\PublicKeyFactory;
+use BitWaspNew\Bitcoin\Script\Opcodes;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
 
 class PayToPubkey implements ScriptInfoInterface
 {

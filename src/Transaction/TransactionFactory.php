@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction;
+namespace BitWaspNew\Bitcoin\Transaction;
 
-use BitWasp\Bitcoin\Serializer\Transaction\TransactionSerializer;
-use BitWasp\Bitcoin\Transaction\Factory\TxBuilder;
-use BitWasp\Bitcoin\Transaction\Mutator\TxMutator;
+use BitWaspNew\Bitcoin\Serializer\Transaction\TransactionSerializer;
+use BitWaspNew\Bitcoin\Transaction\Factory\TxBuilder;
+use BitWaspNew\Bitcoin\Transaction\Mutator\TxMutator;
 
 class TransactionFactory
 {

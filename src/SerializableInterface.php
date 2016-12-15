@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin;
+namespace BitWaspNew\Bitcoin;
 
-use BitWasp\Buffertools\Buffer;
+use BitWaspNew\Buffertools\Buffer;
 
 interface SerializableInterface extends \BitWasp\Buffertools\SerializableInterface
 {

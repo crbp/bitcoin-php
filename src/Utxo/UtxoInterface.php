@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Utxo;
+namespace BitWaspNew\Bitcoin\Utxo;
 
-use BitWasp\Bitcoin\Transaction\OutPoint;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Bitcoin\Transaction\OutPoint;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
 
 interface UtxoInterface
 {

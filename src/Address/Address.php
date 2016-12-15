@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Address;
+namespace BitWaspNew\Bitcoin\Address;
 
-use BitWasp\Bitcoin\Base58;
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Base58;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 /**
  * Abstract Class Address

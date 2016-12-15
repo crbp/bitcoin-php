@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Address;
+namespace BitWaspNew\Bitcoin\Address;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Bitcoin\Script\ScriptFactory;
-use BitWasp\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Bitcoin\Script\ScriptFactory;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
 
 class PayToPubKeyHashAddress extends Address
 {

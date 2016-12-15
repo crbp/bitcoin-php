@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Key\Deterministic;
+namespace BitWaspNew\Bitcoin\Key\Deterministic;
 
 /**
  * NB: Paths returned by this library omit m/M. This is because

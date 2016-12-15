@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Mnemonic\Electrum\Wordlist;
+namespace BitWaspNew\Bitcoin\Mnemonic\Electrum\Wordlist;
 
-use BitWasp\Bitcoin\Mnemonic\Electrum\ElectrumWordListInterface;
-use BitWasp\Bitcoin\Mnemonic\WordList;
+use BitWaspNew\Bitcoin\Mnemonic\Electrum\ElectrumWordListInterface;
+use BitWaspNew\Bitcoin\Mnemonic\WordList;
 
 class EnglishWordList extends WordList implements ElectrumWordListInterface
 {

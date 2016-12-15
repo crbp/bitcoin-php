@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script;
+namespace BitWaspNew\Bitcoin\Script;
 
-use BitWasp\Bitcoin\Script\Parser\Parser;
-use BitWasp\Bitcoin\SerializableInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Script\Parser\Parser;
+use BitWaspNew\Bitcoin\SerializableInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface ScriptInterface extends SerializableInterface
 {

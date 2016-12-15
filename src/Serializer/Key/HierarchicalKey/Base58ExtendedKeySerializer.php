@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Key\HierarchicalKey;
+namespace BitWaspNew\Bitcoin\Serializer\Key\HierarchicalKey;
 
-use BitWasp\Bitcoin\Base58;
-use BitWasp\Bitcoin\Key\Deterministic\HierarchicalKey;
+use BitWaspNew\Bitcoin\Base58;
+use BitWaspNew\Bitcoin\Key\Deterministic\HierarchicalKey;
 
 class Base58ExtendedKeySerializer
 {

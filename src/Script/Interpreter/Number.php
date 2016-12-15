@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Interpreter;
+namespace BitWaspNew\Bitcoin\Script\Interpreter;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Number extends Serializable
 {

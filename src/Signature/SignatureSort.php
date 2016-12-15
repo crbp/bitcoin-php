@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Signature;
+namespace BitWaspNew\Bitcoin\Signature;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class SignatureSort implements SignatureSortInterface
 {

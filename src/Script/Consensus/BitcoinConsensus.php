@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Consensus;
+namespace BitWaspNew\Bitcoin\Script\Consensus;
 
-use BitWasp\Bitcoin\Script\Interpreter\InterpreterInterface;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Bitcoin\Script\Interpreter\InterpreterInterface;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
 
 class BitcoinConsensus implements ConsensusInterface
 {

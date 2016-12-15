@@ -1,5 +1,5 @@
 <?php
-namespace BitWasp\Bitcoin\Exceptions;
+namespace BitWaspNew\Bitcoin\Exceptions;
 
 class JsonRpcError extends \Exception
 {

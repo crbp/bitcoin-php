@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\PaymentProtocol;
+namespace BitWaspNew\Bitcoin\PaymentProtocol;
 
-use BitWasp\Bitcoin\Crypto\Random\Random;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\Payment;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentACK;
-use BitWasp\Bitcoin\PaymentProtocol\Protobufs\PaymentRequest;
+use BitWaspNew\Bitcoin\Crypto\Random\Random;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\Payment;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentACK;
+use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentRequest;
 use Symfony\Component\HttpFoundation\Response;
 
 class HttpResponse

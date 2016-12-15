@@ -1,10 +1,10 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Key;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Key;
 
-use BitWasp\Bitcoin\Address\AddressFactory;
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Serializable;
+use BitWaspNew\Bitcoin\Address\AddressFactory;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Serializable;
 
 abstract class Key extends Serializable implements KeyInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Key;
+namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Key;
 
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface PrivateKeySerializerInterface
 {

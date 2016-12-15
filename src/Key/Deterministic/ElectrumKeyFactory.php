@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Key\Deterministic;
+namespace BitWaspNew\Bitcoin\Key\Deterministic;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
-use BitWasp\Bitcoin\Key\PrivateKeyFactory;
-use BitWasp\Bitcoin\Mnemonic\Electrum\ElectrumWordListInterface;
-use BitWasp\Bitcoin\Mnemonic\MnemonicFactory;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
+use BitWaspNew\Bitcoin\Key\PrivateKeyFactory;
+use BitWaspNew\Bitcoin\Mnemonic\Electrum\ElectrumWordListInterface;
+use BitWaspNew\Bitcoin\Mnemonic\MnemonicFactory;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class ElectrumKeyFactory
 {

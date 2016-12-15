@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin;
+namespace BitWaspNew\Bitcoin;
 
 abstract class Serializable implements SerializableInterface
 {

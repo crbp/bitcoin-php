@@ -1,14 +1,14 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Bloom;
+namespace BitWaspNew\Bitcoin\Serializer\Bloom;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Bloom\BloomFilter;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Buffertools\Parser;
-use BitWasp\Buffertools\TemplateFactory;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Bloom\BloomFilter;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\Parser;
+use BitWaspNew\Buffertools\TemplateFactory;
 
 class BloomFilterSerializer
 {

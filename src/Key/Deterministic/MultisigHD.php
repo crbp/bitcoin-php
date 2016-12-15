@@ -1,11 +1,11 @@
 <?php
 
-namespace BitWasp\Bitcoin\Key\Deterministic;
+namespace BitWaspNew\Bitcoin\Key\Deterministic;
 
-use BitWasp\Bitcoin\Address\AddressFactory;
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Buffertools\Buffertools;
-use BitWasp\Bitcoin\Script\ScriptFactory;
+use BitWaspNew\Bitcoin\Address\AddressFactory;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Buffertools\Buffertools;
+use BitWaspNew\Bitcoin\Script\ScriptFactory;
 
 class MultisigHD
 {

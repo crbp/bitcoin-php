@@ -1,6 +1,6 @@
 <?php
 
-namespace BitWasp\Bitcoin\Collection;
+namespace BitWaspNew\Bitcoin\Collection;
 
 interface CollectionInterface extends \Iterator, \ArrayAccess, \Countable
 {

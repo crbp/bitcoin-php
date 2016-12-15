@@ -1,24 +1,24 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\Factory;
+namespace BitWaspNew\Bitcoin\Transaction\Factory;
 
-use BitWasp\Bitcoin\Address\AddressInterface;
-use BitWasp\Bitcoin\Locktime;
-use BitWasp\Bitcoin\Script\Script;
-use BitWasp\Bitcoin\Script\ScriptFactory;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Script\ScriptWitnessInterface;
-use BitWasp\Bitcoin\Transaction\Bip69\Bip69;
-use BitWasp\Bitcoin\Transaction\OutPoint;
-use BitWasp\Bitcoin\Transaction\OutPointInterface;
-use BitWasp\Bitcoin\Transaction\Transaction;
-use BitWasp\Bitcoin\Transaction\TransactionInput;
-use BitWasp\Bitcoin\Transaction\TransactionInputInterface;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Bitcoin\Transaction\TransactionOutput;
-use BitWasp\Bitcoin\Transaction\TransactionOutputInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Address\AddressInterface;
+use BitWaspNew\Bitcoin\Locktime;
+use BitWaspNew\Bitcoin\Script\Script;
+use BitWaspNew\Bitcoin\Script\ScriptFactory;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
+use BitWaspNew\Bitcoin\Transaction\Bip69\Bip69;
+use BitWaspNew\Bitcoin\Transaction\OutPoint;
+use BitWaspNew\Bitcoin\Transaction\OutPointInterface;
+use BitWaspNew\Bitcoin\Transaction\Transaction;
+use BitWaspNew\Bitcoin\Transaction\TransactionInput;
+use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutput;
+use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class TxBuilder
 {

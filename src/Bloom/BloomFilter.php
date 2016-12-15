@@ -1,15 +1,15 @@
 <?php
 
-namespace BitWasp\Bitcoin\Bloom;
+namespace BitWaspNew\Bitcoin\Bloom;
 
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Script\Classifier\OutputClassifier;
-use BitWasp\Bitcoin\Serializer\Bloom\BloomFilterSerializer;
-use BitWasp\Bitcoin\Serializable;
-use BitWasp\Bitcoin\Transaction\OutPointInterface;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Script\Classifier\OutputClassifier;
+use BitWaspNew\Bitcoin\Serializer\Bloom\BloomFilterSerializer;
+use BitWaspNew\Bitcoin\Serializable;
+use BitWaspNew\Bitcoin\Transaction\OutPointInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class BloomFilter extends Serializable
 {

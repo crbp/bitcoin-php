@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Block;
+namespace BitWaspNew\Bitcoin\Block;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Serializer\Block\BlockHeaderSerializer;
-use BitWasp\Bitcoin\Serializer\Block\BlockSerializer;
-use BitWasp\Bitcoin\Serializer\Transaction\TransactionSerializer;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Serializer\Block\BlockHeaderSerializer;
+use BitWaspNew\Bitcoin\Serializer\Block\BlockSerializer;
+use BitWaspNew\Bitcoin\Serializer\Transaction\TransactionSerializer;
 
 class BlockFactory
 {

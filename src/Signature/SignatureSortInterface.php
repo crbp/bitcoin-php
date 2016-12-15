@@ -1,8 +1,8 @@
 <?php
 
-namespace BitWasp\Bitcoin\Signature;
+namespace BitWaspNew\Bitcoin\Signature;
 
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Buffertools\BufferInterface;
 
 interface SignatureSortInterface
 {

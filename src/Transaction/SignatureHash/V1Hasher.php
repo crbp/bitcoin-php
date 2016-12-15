@@ -1,13 +1,13 @@
 <?php
 
-namespace BitWasp\Bitcoin\Transaction\SignatureHash;
+namespace BitWaspNew\Bitcoin\Transaction\SignatureHash;
 
-use BitWasp\Bitcoin\Crypto\Hash;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Buffertools\Buffertools;
+use BitWaspNew\Bitcoin\Crypto\Hash;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Buffertools\Buffertools;
 
 class V1Hasher extends SigHash
 {

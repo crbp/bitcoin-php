@@ -1,18 +1,18 @@
 <?php
 
-namespace BitWasp\Bitcoin\Serializer\Key\PrivateKey;
+namespace BitWaspNew\Bitcoin\Serializer\Key\PrivateKey;
 
-use BitWasp\Bitcoin\Base58;
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Key\PrivateKeySerializerInterface;
-use BitWasp\Bitcoin\Key\PrivateKeyFactory;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Bitcoin\Exceptions\InvalidPrivateKey;
-use BitWasp\Bitcoin\Exceptions\Base58ChecksumFailure;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Network\NetworkInterface;
-use BitWasp\Buffertools\Buffertools;
+use BitWaspNew\Bitcoin\Base58;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Key\PrivateKeySerializerInterface;
+use BitWaspNew\Bitcoin\Key\PrivateKeyFactory;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Bitcoin\Exceptions\InvalidPrivateKey;
+use BitWaspNew\Bitcoin\Exceptions\Base58ChecksumFailure;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Network\NetworkInterface;
+use BitWaspNew\Buffertools\Buffertools;
 
 class WifPrivateKeySerializer
 {

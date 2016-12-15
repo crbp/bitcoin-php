@@ -1,12 +1,12 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Parser;
+namespace BitWaspNew\Bitcoin\Script\Parser;
 
-use BitWasp\Bitcoin\Script\Opcodes;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Script\Opcodes;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class Parser implements \Iterator
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script\Consensus;
+namespace BitWaspNew\Bitcoin\Script\Consensus;
 
-use BitWasp\Bitcoin\Script\ScriptInterface;
-use BitWasp\Bitcoin\Transaction\TransactionInterface;
+use BitWaspNew\Bitcoin\Script\ScriptInterface;
+use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
 
 interface ConsensusInterface
 {

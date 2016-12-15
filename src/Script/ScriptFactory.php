@@ -1,16 +1,16 @@
 <?php
 
-namespace BitWasp\Bitcoin\Script;
+namespace BitWaspNew\Bitcoin\Script;
 
-use BitWasp\Bitcoin\Bitcoin;
-use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWasp\Bitcoin\Math\Math;
-use BitWasp\Bitcoin\Script\Consensus\BitcoinConsensus;
-use BitWasp\Bitcoin\Script\Consensus\NativeConsensus;
-use BitWasp\Bitcoin\Script\Factory\OutputScriptFactory;
-use BitWasp\Bitcoin\Script\Factory\ScriptCreator;
-use BitWasp\Buffertools\Buffer;
-use BitWasp\Buffertools\BufferInterface;
+use BitWaspNew\Bitcoin\Bitcoin;
+use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
+use BitWaspNew\Bitcoin\Math\Math;
+use BitWaspNew\Bitcoin\Script\Consensus\BitcoinConsensus;
+use BitWaspNew\Bitcoin\Script\Consensus\NativeConsensus;
+use BitWaspNew\Bitcoin\Script\Factory\OutputScriptFactory;
+use BitWaspNew\Bitcoin\Script\Factory\ScriptCreator;
+use BitWaspNew\Buffertools\Buffer;
+use BitWaspNew\Buffertools\BufferInterface;
 
 class ScriptFactory
 {
