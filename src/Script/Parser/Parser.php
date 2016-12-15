@@ -5,8 +5,8 @@ namespace BitWaspNew\Bitcoin\Script\Parser;
 use BitWaspNew\Bitcoin\Script\Opcodes;
 use BitWaspNew\Bitcoin\Math\Math;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class Parser implements \Iterator
 {

@@ -4,9 +4,9 @@ namespace BitWaspNew\Bitcoin\Serializer\Block;
 
 use BitWaspNew\Bitcoin\Block\BlockInterface;
 use BitWaspNew\Bitcoin\Network\NetworkInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\Parser;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\Parser;
+use BitWasp\Buffertools\TemplateFactory;
 
 class BitcoindBlockSerializer
 {

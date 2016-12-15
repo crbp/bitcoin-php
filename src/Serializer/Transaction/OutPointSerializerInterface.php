@@ -3,7 +3,7 @@
 namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
 use BitWaspNew\Bitcoin\Transaction\OutPointInterface;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\Parser;
 
 interface OutPointSerializerInterface
 {

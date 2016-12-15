@@ -2,7 +2,7 @@
 
 namespace BitWaspNew\Bitcoin\Collection;
 
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class StaticBufferCollection extends StaticCollection
 {

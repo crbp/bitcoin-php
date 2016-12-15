@@ -4,8 +4,8 @@ namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
 use BitWaspNew\Bitcoin\Transaction\OutPoint;
 use BitWaspNew\Bitcoin\Transaction\OutPointInterface;
-use BitWaspNew\Buffertools\Parser;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\Parser;
+use BitWasp\Buffertools\TemplateFactory;
 
 class OutPointSerializer implements OutPointSerializerInterface
 {

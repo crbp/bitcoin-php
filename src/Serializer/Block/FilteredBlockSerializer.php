@@ -3,9 +3,9 @@
 namespace BitWaspNew\Bitcoin\Serializer\Block;
 
 use BitWaspNew\Bitcoin\Block\FilteredBlock;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Buffertools;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffertools;
+use BitWasp\Buffertools\Parser;
 
 class FilteredBlockSerializer
 {

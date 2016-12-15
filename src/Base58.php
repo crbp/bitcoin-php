@@ -5,9 +5,9 @@ namespace BitWaspNew\Bitcoin;
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Exceptions\Base58ChecksumFailure;
 use BitWaspNew\Bitcoin\Exceptions\Base58InvalidCharacter;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Buffertools;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffertools;
 
 class Base58
 {

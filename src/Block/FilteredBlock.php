@@ -6,7 +6,7 @@ use BitWaspNew\Bitcoin\Serializable;
 use BitWaspNew\Bitcoin\Serializer\Block\BlockHeaderSerializer;
 use BitWaspNew\Bitcoin\Serializer\Block\FilteredBlockSerializer;
 use BitWaspNew\Bitcoin\Serializer\Block\PartialMerkleTreeSerializer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class FilteredBlock extends Serializable
 {

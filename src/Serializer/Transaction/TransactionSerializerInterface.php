@@ -3,8 +3,8 @@
 namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Parser;
 
 interface TransactionSerializerInterface
 {

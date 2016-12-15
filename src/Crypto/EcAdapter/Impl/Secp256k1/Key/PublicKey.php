@@ -7,8 +7,8 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Serializer\Key\PublicKeyS
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\Key;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class PublicKey extends Key implements PublicKeyInterface
 {

@@ -3,10 +3,10 @@
 namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
 use BitWaspNew\Bitcoin\Transaction\Factory\TxBuilder;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\Parser;
 use BitWaspNew\Bitcoin\Transaction\Transaction;
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\TemplateFactory;
 
 class OldTransactionSerializer
 {

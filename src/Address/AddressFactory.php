@@ -9,7 +9,7 @@ use BitWaspNew\Bitcoin\Network\NetworkInterface;
 use BitWaspNew\Bitcoin\Script\Classifier\OutputClassifier;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
 use BitWaspNew\Bitcoin\Key\PublicKeyFactory;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class AddressFactory
 {

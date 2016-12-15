@@ -3,7 +3,7 @@
 namespace BitWaspNew\Bitcoin\Script;
 
 use BitWaspNew\Bitcoin\Collection\CollectionInterface;
-use BitWaspNew\Buffertools\SerializableInterface;
+use BitWasp\Buffertools\SerializableInterface;
 
 interface ScriptWitnessInterface extends CollectionInterface, SerializableInterface
 {

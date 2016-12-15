@@ -5,14 +5,14 @@ namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Signature;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\DerSignatureSerializerInterface;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Exceptions\ParserOutOfRange;
-use BitWaspNew\Buffertools\Parser;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Exceptions\ParserOutOfRange;
+use BitWasp\Buffertools\Parser;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Signature\Signature;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWaspNew\Buffertools\Template;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\Template;
+use BitWasp\Buffertools\TemplateFactory;
 
 class DerSignatureSerializer implements DerSignatureSerializerInterface
 {

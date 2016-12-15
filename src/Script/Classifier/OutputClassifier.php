@@ -6,8 +6,8 @@ use BitWaspNew\Bitcoin\Script\Parser\Operation;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
 use BitWaspNew\Bitcoin\Script\Opcodes;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class OutputClassifier
 {

@@ -5,7 +5,7 @@ namespace BitWaspNew\Bitcoin\Block;
 use BitWaspNew\Bitcoin\Bloom\BloomFilter;
 use BitWaspNew\Bitcoin\SerializableInterface;
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface BlockInterface extends SerializableInterface
 {

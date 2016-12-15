@@ -7,7 +7,7 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface EcAdapterInterface
 {

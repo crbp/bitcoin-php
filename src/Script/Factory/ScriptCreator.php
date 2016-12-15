@@ -8,8 +8,8 @@ use BitWaspNew\Bitcoin\Script\Opcodes;
 use BitWaspNew\Bitcoin\Script\Script;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
 use BitWaspNew\Bitcoin\Serializable;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class ScriptCreator
 {

@@ -9,7 +9,7 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
 use BitWaspNew\Bitcoin\Exceptions\SignatureNotCanonical;
 use BitWaspNew\Bitcoin\Serializable;
 use BitWaspNew\Bitcoin\Serializer\Signature\TransactionSignatureSerializer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class TransactionSignature extends Serializable implements TransactionSignatureInterface
 {

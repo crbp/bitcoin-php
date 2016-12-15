@@ -4,10 +4,10 @@ namespace BitWaspNew\Bitcoin\Transaction\SignatureHash;
 
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
-use BitWaspNew\Buffertools\Buffertools;
+use BitWasp\Buffertools\Buffertools;
 
 class V1Hasher extends SigHash
 {

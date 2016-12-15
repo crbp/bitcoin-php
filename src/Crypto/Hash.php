@@ -2,8 +2,8 @@
 
 namespace BitWaspNew\Bitcoin\Crypto;
 
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class Hash
 {

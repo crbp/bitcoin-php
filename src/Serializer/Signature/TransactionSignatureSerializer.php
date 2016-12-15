@@ -4,9 +4,9 @@ namespace BitWaspNew\Bitcoin\Serializer\Signature;
 
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\DerSignatureSerializerInterface;
 use BitWaspNew\Bitcoin\Signature\TransactionSignature;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Parser;
 
 class TransactionSignatureSerializer
 {

@@ -7,7 +7,7 @@ use BitWaspNew\Bitcoin\Serializer\Transaction\OutPointSerializer;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
 use BitWaspNew\Bitcoin\Serializable;
 use BitWaspNew\Bitcoin\Serializer\Transaction\TransactionInputSerializer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class TransactionInput extends Serializable implements TransactionInputInterface
 {

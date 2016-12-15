@@ -13,8 +13,8 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
 use BitWaspNew\Bitcoin\Crypto\Random\RbgInterface;
 use BitWaspNew\Bitcoin\Math\Math;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 use Mdanter\Ecc\Primitives\GeneratorPoint;
 
 class EcAdapter implements EcAdapterInterface

@@ -3,7 +3,7 @@
 namespace BitWaspNew\Bitcoin\Script\Parser;
 
 use BitWaspNew\Bitcoin\Script\Opcodes;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class Operation
 {

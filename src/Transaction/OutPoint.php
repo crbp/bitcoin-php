@@ -4,7 +4,7 @@ namespace BitWaspNew\Bitcoin\Transaction;
 
 use BitWaspNew\Bitcoin\Serializable;
 use BitWaspNew\Bitcoin\Serializer\Transaction\OutPointSerializer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 use BitWaspNew\CommonTrait\FunctionAliasArrayAccess;
 
 class OutPoint extends Serializable implements OutPointInterface

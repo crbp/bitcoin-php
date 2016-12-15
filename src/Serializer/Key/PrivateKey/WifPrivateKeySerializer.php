@@ -6,13 +6,13 @@ use BitWaspNew\Bitcoin\Base58;
 use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Key\PrivateKeySerializerInterface;
 use BitWaspNew\Bitcoin\Key\PrivateKeyFactory;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Exceptions\InvalidPrivateKey;
 use BitWaspNew\Bitcoin\Exceptions\Base58ChecksumFailure;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
 use BitWaspNew\Bitcoin\Math\Math;
 use BitWaspNew\Bitcoin\Network\NetworkInterface;
-use BitWaspNew\Buffertools\Buffertools;
+use BitWasp\Buffertools\Buffertools;
 
 class WifPrivateKeySerializer
 {

@@ -17,8 +17,8 @@ use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
 use BitWaspNew\Bitcoin\Transaction\TransactionOutput;
 use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class TxBuilder
 {

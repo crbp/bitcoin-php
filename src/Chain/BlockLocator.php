@@ -4,7 +4,7 @@ namespace BitWaspNew\Bitcoin\Chain;
 
 use BitWaspNew\Bitcoin\Serializer\Chain\BlockLocatorSerializer;
 use BitWaspNew\Bitcoin\Serializable;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class BlockLocator extends Serializable
 {

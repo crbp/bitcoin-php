@@ -11,8 +11,8 @@ use BitWaspNew\Bitcoin\Crypto\Random\RbgInterface;
 use BitWaspNew\Bitcoin\Exceptions\InvalidPrivateKey;
 use BitWaspNew\Bitcoin\Network\NetworkInterface;
 use BitWaspNew\Bitcoin\Serializer\Key\PrivateKey\WifPrivateKeySerializer;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 use Mdanter\Ecc\Crypto\EcDH\EcDH;
 
 class PrivateKey extends Key implements PrivateKeyInterface, \Mdanter\Ecc\Crypto\Key\PrivateKeyInterface

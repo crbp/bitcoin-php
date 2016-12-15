@@ -4,13 +4,13 @@ namespace BitWaspNew\Bitcoin\Key\Deterministic;
 
 use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Key\PrivateKeyFactory;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
 use BitWaspNew\Bitcoin\Network\NetworkInterface;
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Serializer\Key\HierarchicalKey\Base58ExtendedKeySerializer;
 use BitWaspNew\Bitcoin\Serializer\Key\HierarchicalKey\ExtendedKeySerializer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class HierarchicalKeyFactory
 {

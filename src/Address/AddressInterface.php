@@ -4,7 +4,7 @@ namespace BitWaspNew\Bitcoin\Address;
 
 use BitWaspNew\Bitcoin\Network\NetworkInterface;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface AddressInterface
 {

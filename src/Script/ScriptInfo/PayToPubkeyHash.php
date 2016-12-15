@@ -4,7 +4,7 @@ namespace BitWaspNew\Bitcoin\Script\ScriptInfo;
 
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class PayToPubkeyHash implements ScriptInfoInterface
 {

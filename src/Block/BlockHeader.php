@@ -5,7 +5,7 @@ namespace BitWaspNew\Bitcoin\Block;
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Serializable;
 use BitWaspNew\Bitcoin\Serializer\Block\BlockHeaderSerializer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class BlockHeader extends Serializable implements BlockHeaderInterface
 {

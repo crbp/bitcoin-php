@@ -9,7 +9,7 @@ use BitWaspNew\Bitcoin\Serializer\Bloom\BloomFilterSerializer;
 use BitWaspNew\Bitcoin\Serializable;
 use BitWaspNew\Bitcoin\Transaction\OutPointInterface;
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class BloomFilter extends Serializable
 {

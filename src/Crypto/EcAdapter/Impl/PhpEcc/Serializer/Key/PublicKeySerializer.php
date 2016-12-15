@@ -4,11 +4,11 @@ namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Key;
 
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Key\PublicKeySerializerInterface;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Parser;
 
 class PublicKeySerializer implements PublicKeySerializerInterface
 {

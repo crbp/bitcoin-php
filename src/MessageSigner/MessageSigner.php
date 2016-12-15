@@ -8,9 +8,9 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Crypto\Random\Rfc6979;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Buffertools;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffertools;
 
 class MessageSigner
 {

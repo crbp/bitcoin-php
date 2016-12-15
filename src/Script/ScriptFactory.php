@@ -9,8 +9,8 @@ use BitWaspNew\Bitcoin\Script\Consensus\BitcoinConsensus;
 use BitWaspNew\Bitcoin\Script\Consensus\NativeConsensus;
 use BitWaspNew\Bitcoin\Script\Factory\OutputScriptFactory;
 use BitWaspNew\Bitcoin\Script\Factory\ScriptCreator;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class ScriptFactory
 {

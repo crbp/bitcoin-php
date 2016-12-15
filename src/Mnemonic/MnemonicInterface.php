@@ -2,7 +2,7 @@
 
 namespace BitWaspNew\Bitcoin\Mnemonic;
 
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface MnemonicInterface
 {

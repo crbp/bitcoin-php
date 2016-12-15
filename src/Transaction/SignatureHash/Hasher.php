@@ -5,9 +5,9 @@ namespace BitWaspNew\Bitcoin\Transaction\SignatureHash;
 use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Transaction\Mutator\TxMutator;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Buffertools;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffertools;
 use BitWaspNew\Bitcoin\Script\Script;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
 

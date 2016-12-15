@@ -4,8 +4,8 @@ namespace BitWaspNew\Bitcoin\Chain;
 
 use BitWaspNew\Bitcoin\Block\BlockHeaderInterface;
 use BitWaspNew\Bitcoin\Math\Math;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class ProofOfWork
 {

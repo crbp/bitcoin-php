@@ -9,7 +9,7 @@ use BitWaspNew\Bitcoin\Serializable;
 use BitWaspNew\Bitcoin\Serializer\Transaction\OldTransactionSerializer;
 use BitWaspNew\Bitcoin\Serializer\Transaction\TransactionSerializer;
 use BitWaspNew\Bitcoin\Utxo\Utxo;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class Transaction extends Serializable implements TransactionInterface
 {

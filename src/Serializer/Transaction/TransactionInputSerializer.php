@@ -2,13 +2,13 @@
 
 namespace BitWaspNew\Bitcoin\Serializer\Transaction;
 
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Buffertools;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffertools;
+use BitWasp\Buffertools\Parser;
 use BitWaspNew\Bitcoin\Script\Script;
 use BitWaspNew\Bitcoin\Transaction\TransactionInput;
 use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\TemplateFactory;
 
 class TransactionInputSerializer
 {

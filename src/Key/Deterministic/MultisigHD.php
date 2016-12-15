@@ -4,7 +4,7 @@ namespace BitWaspNew\Bitcoin\Key\Deterministic;
 
 use BitWaspNew\Bitcoin\Address\AddressFactory;
 use BitWaspNew\Bitcoin\Crypto\Hash;
-use BitWaspNew\Buffertools\Buffertools;
+use BitWasp\Buffertools\Buffertools;
 use BitWaspNew\Bitcoin\Script\ScriptFactory;
 
 class MultisigHD

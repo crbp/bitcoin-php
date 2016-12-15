@@ -3,7 +3,7 @@
 namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Key;
 
 use BitWaspNew\Bitcoin\SerializableInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface KeyInterface extends SerializableInterface
 {

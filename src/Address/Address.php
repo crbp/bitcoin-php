@@ -4,9 +4,9 @@ namespace BitWaspNew\Bitcoin\Address;
 
 use BitWaspNew\Bitcoin\Base58;
 use BitWaspNew\Bitcoin\Bitcoin;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Network\NetworkInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 /**
  * Abstract Class Address

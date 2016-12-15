@@ -3,9 +3,9 @@
 namespace BitWaspNew\Bitcoin\Serializer\Chain;
 
 use BitWaspNew\Bitcoin\Chain\BlockLocator;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Parser;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Parser;
+use BitWasp\Buffertools\TemplateFactory;
 
 class BlockLocatorSerializer
 {

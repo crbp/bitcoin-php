@@ -4,8 +4,8 @@ namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Signature;
 
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Serializer\Signature\CompactSignatureSerializer;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class CompactSignature extends Signature implements CompactSignatureInterface
 {

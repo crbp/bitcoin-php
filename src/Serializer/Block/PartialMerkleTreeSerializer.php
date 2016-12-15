@@ -4,10 +4,10 @@ namespace BitWaspNew\Bitcoin\Serializer\Block;
 
 use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Block\PartialMerkleTree;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Parser;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Parser;
+use BitWasp\Buffertools\TemplateFactory;
 
 class PartialMerkleTreeSerializer
 {

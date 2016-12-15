@@ -2,7 +2,7 @@
 
 namespace BitWaspNew\Bitcoin\Script\Interpreter;
 
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface StackInterface extends \ArrayAccess, \Iterator
 {

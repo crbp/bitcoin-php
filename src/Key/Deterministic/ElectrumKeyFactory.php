@@ -8,8 +8,8 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
 use BitWaspNew\Bitcoin\Key\PrivateKeyFactory;
 use BitWaspNew\Bitcoin\Mnemonic\Electrum\ElectrumWordListInterface;
 use BitWaspNew\Bitcoin\Mnemonic\MnemonicFactory;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class ElectrumKeyFactory
 {

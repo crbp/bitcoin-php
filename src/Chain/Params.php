@@ -7,7 +7,7 @@ use BitWaspNew\Bitcoin\Block\BlockHeader;
 use BitWaspNew\Bitcoin\Math\Math;
 use BitWaspNew\Bitcoin\Script\ScriptFactory;
 use BitWaspNew\Bitcoin\Transaction\Factory\TxBuilder;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 
 class Params implements ParamsInterface
 {

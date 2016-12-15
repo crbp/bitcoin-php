@@ -6,8 +6,8 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Crypto\Random\Random;
 use BitWaspNew\Bitcoin\Mnemonic\MnemonicInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class Bip39Mnemonic implements MnemonicInterface
 {

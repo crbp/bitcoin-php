@@ -3,8 +3,8 @@
 namespace BitWaspNew\Bitcoin\Mnemonic\Bip39;
 
 use BitWaspNew\Bitcoin\Crypto\Hash;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class Bip39SeedGenerator
 {

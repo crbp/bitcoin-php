@@ -29,8 +29,8 @@ use BitWaspNew\Bitcoin\Transaction\SignatureHash\V1Hasher;
 use BitWaspNew\Bitcoin\Transaction\TransactionFactory;
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
 use BitWaspNew\Bitcoin\Transaction\TransactionOutputInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class InputSigner
 {

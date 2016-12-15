@@ -8,7 +8,7 @@ use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentDetails;
 use BitWaspNew\Bitcoin\PaymentProtocol\Protobufs\PaymentRequest;
 use BitWaspNew\Bitcoin\Transaction\TransactionFactory;
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 
 class PaymentVerifier
 {

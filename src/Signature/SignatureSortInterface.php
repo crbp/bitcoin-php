@@ -2,7 +2,7 @@
 
 namespace BitWaspNew\Bitcoin\Signature;
 
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface SignatureSortInterface
 {

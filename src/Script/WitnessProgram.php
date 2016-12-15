@@ -2,7 +2,7 @@
 
 namespace BitWaspNew\Bitcoin\Script;
 
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class WitnessProgram
 {

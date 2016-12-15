@@ -6,10 +6,10 @@ use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Script\Classifier\OutputClassifier;
 use BitWaspNew\Bitcoin\Script\Interpreter\InterpreterInterface;
 use BitWaspNew\Bitcoin\Script\Parser\Parser;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Serializable;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class Script extends Serializable implements ScriptInterface
 {

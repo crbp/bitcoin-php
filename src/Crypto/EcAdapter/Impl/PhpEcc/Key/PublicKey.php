@@ -7,7 +7,7 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Key\PublicKeySeri
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\Key;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 use Mdanter\Ecc\Primitives\PointInterface;
 
 class PublicKey extends Key implements PublicKeyInterface, \Mdanter\Ecc\Crypto\Key\PublicKeyInterface

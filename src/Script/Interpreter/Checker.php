@@ -16,7 +16,7 @@ use BitWaspNew\Bitcoin\Transaction\SignatureHash\SigHash;
 use BitWaspNew\Bitcoin\Transaction\SignatureHash\V1Hasher;
 use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
 use BitWaspNew\Bitcoin\Transaction\TransactionInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class Checker
 {

@@ -5,8 +5,8 @@ namespace BitWaspNew\Bitcoin\Script\Interpreter;
 use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Math\Math;
 use BitWaspNew\Bitcoin\Serializable;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class Number extends Serializable
 {

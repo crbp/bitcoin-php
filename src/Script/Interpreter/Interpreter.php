@@ -18,8 +18,8 @@ use BitWaspNew\Bitcoin\Script\WitnessProgram;
 use BitWaspNew\Bitcoin\Signature\TransactionSignature;
 use BitWaspNew\Bitcoin\Transaction\SignatureHash\SigHash;
 use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class Interpreter implements InterpreterInterface
 {

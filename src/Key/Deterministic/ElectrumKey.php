@@ -7,7 +7,7 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 
 class ElectrumKey
 {

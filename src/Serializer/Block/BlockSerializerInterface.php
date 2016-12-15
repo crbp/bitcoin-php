@@ -3,8 +3,8 @@
 namespace BitWaspNew\Bitcoin\Serializer\Block;
 
 use BitWaspNew\Bitcoin\Block\BlockInterface;
-use BitWaspNew\Buffertools\Exceptions\ParserOutOfRange;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\Exceptions\ParserOutOfRange;
+use BitWasp\Buffertools\Parser;
 
 interface BlockSerializerInterface
 {

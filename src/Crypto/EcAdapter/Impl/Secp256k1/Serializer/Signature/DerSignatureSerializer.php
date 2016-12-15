@@ -7,10 +7,10 @@ use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Signature\Signature;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\DerSignatureSerializerInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\Parser;
-use BitWaspNew\Buffertools\Template;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\Parser;
+use BitWasp\Buffertools\Template;
+use BitWasp\Buffertools\TemplateFactory;
 
 class DerSignatureSerializer implements DerSignatureSerializerInterface
 {

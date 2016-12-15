@@ -5,10 +5,10 @@ namespace BitWaspNew\Bitcoin\Serializer\Bloom;
 use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Math\Math;
 use BitWaspNew\Bitcoin\Bloom\BloomFilter;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Parser;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Parser;
+use BitWasp\Buffertools\TemplateFactory;
 
 class BloomFilterSerializer
 {

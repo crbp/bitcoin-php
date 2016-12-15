@@ -6,13 +6,13 @@ use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\KeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PrivateKeyInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Key\PublicKey;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
 use BitWaspNew\Bitcoin\Serializer\Key\HierarchicalKey\Base58ExtendedKeySerializer;
 use BitWaspNew\Bitcoin\Serializer\Key\HierarchicalKey\ExtendedKeySerializer;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Buffertools;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffertools;
+use BitWasp\Buffertools\Parser;
 use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Network\NetworkInterface;
 

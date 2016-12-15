@@ -2,7 +2,7 @@
 
 namespace BitWaspNew\Bitcoin\Crypto\Random;
 
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Exceptions\RandomBytesFailure;
 
 class Random implements RbgInterface

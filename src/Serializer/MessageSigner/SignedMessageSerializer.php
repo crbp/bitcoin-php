@@ -4,7 +4,7 @@ namespace BitWaspNew\Bitcoin\Serializer\MessageSigner;
 
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\CompactSignatureSerializerInterface;
 use BitWaspNew\Bitcoin\MessageSigner\SignedMessage;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 
 class SignedMessageSerializer
 {

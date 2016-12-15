@@ -4,8 +4,8 @@ namespace BitWaspNew\Bitcoin\Mnemonic\Electrum;
 
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
 use BitWaspNew\Bitcoin\Mnemonic\MnemonicInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class ElectrumMnemonic implements MnemonicInterface
 {

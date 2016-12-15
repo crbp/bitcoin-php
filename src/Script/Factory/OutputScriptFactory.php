@@ -9,9 +9,9 @@ use BitWaspNew\Bitcoin\Crypto\Hash;
 use BitWaspNew\Bitcoin\Script\Opcodes;
 use BitWaspNew\Bitcoin\Script\ScriptFactory;
 use BitWaspNew\Bitcoin\Script\ScriptInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Buffertools;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffertools;
 
 class OutputScriptFactory
 {

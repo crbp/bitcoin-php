@@ -5,7 +5,7 @@ namespace BitWaspNew\Bitcoin\Transaction;
 use BitWaspNew\Bitcoin\Script\ScriptWitnessInterface;
 use BitWaspNew\Bitcoin\SerializableInterface;
 use BitWaspNew\Bitcoin\Utxo\Utxo;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface TransactionInterface extends SerializableInterface
 {

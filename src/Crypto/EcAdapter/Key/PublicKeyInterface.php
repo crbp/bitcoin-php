@@ -3,7 +3,7 @@
 namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Key;
 
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\SignatureInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface PublicKeyInterface extends KeyInterface
 {

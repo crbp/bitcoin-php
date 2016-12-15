@@ -3,7 +3,7 @@
 namespace BitWaspNew\Bitcoin\Transaction;
 
 use BitWaspNew\Bitcoin\SerializableInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface OutPointInterface extends SerializableInterface
 {

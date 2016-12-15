@@ -5,10 +5,10 @@ namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Serializer\Key;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Adapter\EcAdapter;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\Secp256k1\Key\PublicKey;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Key\PublicKeySerializerInterface;
-use BitWaspNew\Buffertools\Buffer;
+use BitWasp\Buffertools\Buffer;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Key\PublicKeyInterface;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Parser;
 
 class PublicKeySerializer implements PublicKeySerializerInterface
 {

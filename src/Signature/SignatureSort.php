@@ -4,7 +4,7 @@ namespace BitWaspNew\Bitcoin\Signature;
 
 use BitWaspNew\Bitcoin\Bitcoin;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 class SignatureSort implements SignatureSortInterface
 {

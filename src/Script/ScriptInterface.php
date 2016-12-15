@@ -4,7 +4,7 @@ namespace BitWaspNew\Bitcoin\Script;
 
 use BitWaspNew\Bitcoin\Script\Parser\Parser;
 use BitWaspNew\Bitcoin\SerializableInterface;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\BufferInterface;
 
 interface ScriptInterface extends SerializableInterface
 {

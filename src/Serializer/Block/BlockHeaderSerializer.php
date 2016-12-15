@@ -2,11 +2,11 @@
 
 namespace BitWaspNew\Bitcoin\Serializer\Block;
 
-use BitWaspNew\Buffertools\Exceptions\ParserOutOfRange;
-use BitWaspNew\Buffertools\Parser;
+use BitWasp\Buffertools\Exceptions\ParserOutOfRange;
+use BitWasp\Buffertools\Parser;
 use BitWaspNew\Bitcoin\Block\BlockHeader;
 use BitWaspNew\Bitcoin\Block\BlockHeaderInterface;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\TemplateFactory;
 
 class BlockHeaderSerializer
 {

@@ -7,8 +7,8 @@ use BitWaspNew\Bitcoin\Transaction\OutPoint;
 use BitWaspNew\Bitcoin\Transaction\OutPointInterface;
 use BitWaspNew\Bitcoin\Transaction\TransactionInput;
 use BitWaspNew\Bitcoin\Transaction\TransactionInputInterface;
-use BitWaspNew\Buffertools\Buffer;
-use BitWaspNew\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Buffer;
+use BitWasp\Buffertools\BufferInterface;
 
 class InputMutator
 {

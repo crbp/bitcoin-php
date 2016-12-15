@@ -5,11 +5,11 @@ namespace BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Serializer\Signature;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Adapter\EcAdapter;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Serializer\Signature\CompactSignatureSerializerInterface;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Signature\CompactSignatureInterface;
-use BitWaspNew\Buffertools\BufferInterface;
-use BitWaspNew\Buffertools\Parser;
-use BitWaspNew\Buffertools\Exceptions\ParserOutOfRange;
+use BitWasp\Buffertools\BufferInterface;
+use BitWasp\Buffertools\Parser;
+use BitWasp\Buffertools\Exceptions\ParserOutOfRange;
 use BitWaspNew\Bitcoin\Crypto\EcAdapter\Impl\PhpEcc\Signature\CompactSignature;
-use BitWaspNew\Buffertools\TemplateFactory;
+use BitWasp\Buffertools\TemplateFactory;
 
 class CompactSignatureSerializer implements CompactSignatureSerializerInterface
 {
